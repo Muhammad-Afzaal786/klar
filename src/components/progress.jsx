@@ -11,7 +11,10 @@ function Progress() {
      <div className="col-lg-2 col-md-2 col-sm-12 col-xs-12 colDiv3">
       <CurrentTime />
      </div>
-     <div className="col-lg-8 col-md-8 col-sm-12 col-xs-12 py-5" style={{ backgroundColor: "#eeeeee" ,height:"100vh"}}>
+     <div
+      className="col-lg-8 col-md-8 col-sm-12 col-xs-12 progressiv_div"
+      style={{ backgroundColor: "#eeeeee", height: "100vh" }}
+     >
       <h2 style={{ color: "grey" }}>
        My next appoinment in {inputs}
        <span>min</span>
@@ -33,22 +36,13 @@ function Progress() {
        <span>75min</span>
       </div>
       <div className="text-center" style={{ color: "grey" }}>
-       <h1>and it start at</h1>
-       <div>
-        <select
-        
-         style={{
-          width: "150px",
-          height: "30px",
-          border: "none",
-          outline: "none",
-          borderRadius: "5px",
-          marginTop: "20px",
-         }}
-        >
-         <option value="1">Now</option>
-         <option value="2">8am</option>
-         <option value="3">12am</option>
+       <h1>and it starts at</h1>
+       <div className="select_focus">
+        <select class="form-select form-select-lg mb-3 option-div" aria-label=".form-select-lg example">
+         <option selected>Now</option>
+         <option value="1">One</option>
+         <option value="2">Two</option>
+         <option value="3">Three</option>
         </select>
        </div>
       </div>
@@ -58,7 +52,7 @@ function Progress() {
        </Link>
        <div>
         <ImArrowUp style={{ fontSize: "2.5rem", color: "grey" }} />
-        <h3 style={{ fontSize: "2.5rem", color: "grey", fontWeight: "800", marginTop: "10px" }}>Touch To Start</h3>
+        <h3 className="touch_" style={{ fontSize: "2.5rem", color: "grey", fontWeight: "900", marginTop: "10px" }}>Touch To Continue</h3>
        </div>
       </div>
      </div>

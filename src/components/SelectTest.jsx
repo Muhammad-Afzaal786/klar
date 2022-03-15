@@ -34,7 +34,7 @@ function SelectTest() {
   setList([...list, item]);
   setCdata(cData);
   setColor(true);
-  setColor("#006266");
+  setColor("#002628");
   let sameData = list.includes(item);
   if (!sameData) {
    list.push(item);
@@ -60,8 +60,8 @@ function SelectTest() {
  return (
   <div>
    <div className="container-fluid">
-    <div className="row" style={{ height: "100vh" }}>
-     <div className="col-lg-2 col-md-2 col-sm-12 col-xs-12 colDiv4" style={{ height: "auto" }}>
+    <div className="row">
+     <div className="col-lg-2 col-md-2 col-sm-12 col-xs-12 colDiv4">
       <CurrentTime />
 
       <div className="mt-2">
@@ -96,13 +96,13 @@ function SelectTest() {
         })}
        </Carousel>
       </div>
-      <div className="d-flex  mt-2 ">
+      <div className="d-flex  mt-2 " style={{backgroundColor:"grey", padding:"10px 0px"}}>
        <Carousel breakPoints={breakPoints}>
         {box.map((val, idx) => {
          console.log(val);
          return (
           <div key={idx}>
-           <Items style={{ color: "white", backgroundColor:val.isFill && isColor }}>{val.isFill && val.name}</Items>
+           <Items style={{ color: "white", backgroundColor: val.isFill && isColor }}>{val.isFill && val.name}</Items>
           </div>
          );
         })}
@@ -129,7 +129,7 @@ function SelectTest() {
        <TherapySlider />
       </div>
      </div>
-     <div className="col-lg-2 col-md-2 col-sm-12 col-xs-12 colDiv4" style={{ height: "auto" }}>
+     <div className="col-lg-2 col-md-2 col-sm-12 col-xs-12 colDiv4">
       <Link
        to="/encounter"
        className="btn btn-light d-flex justify-content-center"

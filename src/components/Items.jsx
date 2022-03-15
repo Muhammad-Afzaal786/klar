@@ -8,7 +8,7 @@ export default styled.div`
   align-items: center;
   height: 50px;
   width: 70px;
-   border: 1px solid black;
+   border: 2px solid #002628;
   color: #fff;
   margin: 0 14px;
   font-size: 12px;
