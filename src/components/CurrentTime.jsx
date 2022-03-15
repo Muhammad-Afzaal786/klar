@@ -17,7 +17,7 @@ function CurrentTime() {
  setInterval(UpdateDate);
  setInterval(UpdateTime, 500);
  return (
-  <div>
+  <div className="mt-3">
    <h1 className="time_d">{cTime}</h1>
    <h4 className="data_d">{cDate}</h4>
   </div>

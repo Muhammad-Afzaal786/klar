@@ -4,6 +4,9 @@
  box-sizing: border-box;
  
 }
+.cardsItems{
+    margin-top: 2rem;
+}
 .option-div{
     width: 30%;
     height: 4rem;
@@ -115,7 +118,7 @@
  border-radius: 10px;
 }
 .img_btn {
-    margin-top: 2rem;
+   
  width: 200px;
  background-color: none;
  border: none;
@@ -125,8 +128,8 @@
  display: flex;
  justify-content: center;
  align-items: center;
- height: 70px;
- width: 70px;
+ height: 90px;
+ width: 90px;
  color: #fff;
  border-radius: 5px;
  margin: 0 5px;
@@ -138,7 +141,7 @@
  display: flex;
  justify-content: center;
  align-items: center;
- margin-top: 20px;
+ margin-top: 0px;
  width: 100%;
  height: 450px;
  background-color: black;
