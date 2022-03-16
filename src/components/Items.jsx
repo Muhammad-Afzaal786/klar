@@ -6,8 +6,8 @@ export default styled.div`
  
   justify-content: center;
   align-items: center;
-  height: 50px;
-  width: 70px;
+  height: 45px;
+  width: 60px;
    border: 2px solid #002628;
   color: #fff;
   margin: 0 14px;

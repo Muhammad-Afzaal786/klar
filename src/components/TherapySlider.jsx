@@ -20,7 +20,7 @@ function TherapySlider() {
         <h2 className="text-center">{val.title}</h2>
         <BsFillArrowRightSquareFill style={{ fontSize: "2rem", color: "#bab24a" }} />
        </div>
-       <p>{val.para}</p>
+       <p style={{fontSize:"13px"}}>{val.para}</p>
       </div>
      );
     })}

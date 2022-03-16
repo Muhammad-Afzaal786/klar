@@ -15,21 +15,21 @@ function Instruction() {
      </div>
      <div
       className="col-lg-8 col-md-8 col-sm-8 col-xs-12 "
-      style={{ backgroundColor: "#eeeeee", display: "flex", justifyContent: "center", alignItems: "center" }}
+      style={{ backgroundColor: "#B0B5b7", display: "flex", justifyContent: "center", alignItems: "center" }}
      >
-      <div className="container-fluid text-center ">
+      <div className="container-fluid text-center p-0">
        <div className="row">
-        <div className="col-10 col-xs-12 mx-auto inst_container">
-         <h2 className="text_inst">Sent Patient Instruction</h2>
+        <div className="col-12 col-xs-12  inst_container">
+         <h2 className="text_inst">Sent Patient Instructions:</h2>
          <div className="d-flex justify-content-around my-4">
-          <input type="text" className="form-control w-75" placeholder="Username" />
-          <button className="btn  blue_btn ">Send</button>
+          <input type="text" className="form-control w-75 main_input2" placeholder="Username" />
+          <button className="btn btn-lg blue_btn ">Send</button>
          </div>
          <div className="d-flex justify-content-around my-3">
-          <input type="text" className="form-control w-75" placeholder="MMS:Phone Number" />
-          <button className="btn  blue_btn">Send</button>
+          <input type="text" className="form-control w-75 main_input2" placeholder="MMS:Phone Number" />
+          <button className="btn btn-lg blue_btn">Send</button>
          </div>
-         <button className="btn  mt-5 blue_btn btn-block" onClick={backPage}>
+         <button className="btn btn-lg mt-5 blue_btn " onClick={backPage}>
           Print
          </button>
         </div>

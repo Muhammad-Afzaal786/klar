@@ -10,10 +10,10 @@ function Encounter() {
      <div className="col-lg-2 col-md-2 col-sm-2 col-xs-12 colDiv5" style={{ borderRight: "1px solid #d1ccc0" }}>
       <CurrentTime />
      </div>
-     <div className="col-lg-8 col-md-8 col-sm-8 col-xs-12 colDiv6" style={{ backgroundColor: "#eeeeee" }}>
-      <div className="encounter__div">
+     <div className="col-lg-8 col-md-8 col-sm-8 col-xs-12 colDiv6" style={{ backgroundColor: "#B0B5b7",padding:"0px" }}>
+      <div className="encounter__div ">
        <div className="encounter-row">
-       <Link to="/select" style={{ textDecoration: "none" }}>
+        <Link to="/select" style={{ textDecoration: "none" }}>
          <div className="d-flex justify-content-around align-items-center cont_div">
           <GoArrowLeft className="arrow_icon" />
           <h2>Continue Encounter </h2>
@@ -28,6 +28,9 @@ function Encounter() {
          </div>
         </Link>
        </div>
+      </div>
+      <div>
+
       </div>
      </div>
      <div className="col-lg-2 col-md-2 col-sm-2 col-xs-12 colDiv5" style={{ borderLeft: "1px solid #d1ccc0" }}>

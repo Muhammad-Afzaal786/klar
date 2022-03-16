@@ -13,10 +13,10 @@ import { Link } from "react-router-dom";
 import Data2 from "./Data2";
 
 const breakPoints = [
- { width: 1, itemsToShow: 4 },
- { width: 550, itemsToShow: 8 },
- { width: 768, itemsToShow: 8 },
- { width: 1200, itemsToShow: 8 },
+ { width: 1, itemsToShow: 6 },
+ { width: 550, itemsToShow: 8},
+ { width: 768, itemsToShow: 8},
+ { width: 1200, itemsToShow: 8},
 ];
 function SelectTest() {
  const [cData, setCdata] = useState(Data);
@@ -61,30 +61,28 @@ function SelectTest() {
   <div>
    <div className="container-fluid">
     <div className="row">
-     <div className="col-lg-2 col-md-2 col-sm-12 col-xs-12 colDiv4 pt-3" >
-      <CurrentTime  />
+     <div className="col-lg-2 col-md-2 col-sm-12 col-xs-12 colDiv4 ">
+      <CurrentTime />
 
       <div className="cardsItems">
-       <div style={{ backgroundColor: "grey", textAlign: "center", margin: "5px 0px", padding: "15px" }}>
+       <div className="boxtText">
         <p>BILLED</p>
         <h1>$302</h1>
        </div>
-       <div style={{ backgroundColor: "grey", textAlign: "center", margin: "10px 0px", padding: "15px" }}>
+       <div className="boxtText">
         <p>CODE UTILIZATION</p>
         <h1>4.12</h1>
        </div>
-       <div style={{ backgroundColor: "grey", textAlign: "center", margin: "5px 0px", padding: "15px" }}>
+       <div className="boxtText">
         <p>EFFICIENCY</p>
         <h1>76%</h1>
        </div>
-       <div
-        style={{ backgroundColor: "grey", textAlign: "center", margin: "10px 0px", padding: "15px", color: "white" }}
-       >
+       <div className="boxtText">
         <AiOutlineContainer style={{ fontSize: "6rem" }} />
        </div>
       </div>
      </div>
-     <div className="col-lg-8 col-md-8 col-sm-12 col-xs-12 my-2" style={{ background: "white",padding:"0px" }}>
+     <div className="col-lg-8 col-md-8 col-sm-12 col-xs-12 my-2" style={{ background: "white", padding: "0px" }}>
       <div className="smallSlider">
        <Carousel breakPoints={breakPoints}>
         {cData.map((val, idx) => {
@@ -96,7 +94,7 @@ function SelectTest() {
         })}
        </Carousel>
       </div>
-      <div className="d-flex  mt-2 " style={{backgroundColor:"#bbbbbb", padding:"10px 0px"}}>
+      <div className="d-flex  mt-2 " style={{ backgroundColor: "#bbbbbb", padding: "10px 0px" }}>
        <Carousel breakPoints={breakPoints}>
         {box.map((val, idx) => {
          console.log(val);
@@ -129,7 +127,7 @@ function SelectTest() {
        <TherapySlider />
       </div>
      </div>
-     <div className="col-lg-2 col-md-2 col-sm-12 col-xs-12 colDiv4" >
+     <div className="col-lg-2 col-md-2 col-sm-12 col-xs-12 colDiv4">
       <Link
        to="/encounter"
        className="btn btn-light d-flex justify-content-center p-0"
@@ -137,22 +135,20 @@ function SelectTest() {
       >
        <img src="./images/Logo_black.png" className="img-fluid img_btn w-75 " alt="" />
       </Link>
-      <div >
-       <div style={{ backgroundColor: "grey", textAlign: "center", margin: "10px 0px", padding: "15px" }}>
-        <p>CURRENT CODE</p>
+      <div>
+       <div className="boxtText">
+        <p>CURRENT </p>
         <h1>NmRE</h1>
        </div>
-       <div style={{ backgroundColor: "grey", textAlign: "center", margin: "10 0px", padding: "15px" }}>
+       <div className="boxtText">
         <p>CHARGE RATE</p>
         <h1>$343</h1>
        </div>
-       <div style={{ backgroundColor: "grey", textAlign: "center", margin: "10px 0px", padding: "15px" }}>
+       <div className="boxtText">
         <p>EFFICIENCY</p>
         <h1>76%</h1>
        </div>
-       <div
-        style={{ backgroundColor: "grey", textAlign: "center", margin: "10px 0px", padding: "10px", color: "white" }}
-       >
+       <div className="boxtText">
         <IoMdDocument style={{ fontSize: "6rem" }} />
        </div>
       </div>

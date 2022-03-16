@@ -1,9 +1,9 @@
-import React, { useState } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 import CurrentTime from "./CurrentTime";
 import { ImArrowUp } from "react-icons/im";
+import Slider from "./Slider";
 function Progress() {
- const [inputs, setInputs] = useState(20);
  return (
   <div>
    <div className="container-fluid">
@@ -15,33 +15,17 @@ function Progress() {
       className="col-lg-8 col-md-8 col-sm-12 col-xs-12 progressiv_div"
       style={{ backgroundColor: "#eeeeee", height: "100vh" }}
      >
-      <h2 style={{ color: "grey" }}>
-       My next appoinment in {inputs}
-       <span>min</span>
-      </h2>
       <div>
-       <input
-        type="range"
-        value={inputs}
-        onChange={(e) => setInputs(e.target.value)}
-        class="form-range"
-        min="20"
-        max="75"
-        step="5"
-        id="customRange3"
-       />
+       <Slider />
       </div>
-      <div className="d-flex justify-content-between" style={{ color: "grey" }}>
-       <span>{inputs}min</span>
-       <span>75min</span>
-      </div>
+
       <div className="text-center" style={{ color: "grey" }}>
        <h1>and it starts at</h1>
        <div className="select_focus">
-        <select class="form-select form-select-lg mb-3 option-div" aria-label=".form-select-lg example">
-         <option selected>Now</option>
-         <option value="1">One</option>
-         <option value="2">Two</option>
+        <select class="form-select form-select-lg mb-3 option-div" aria-label="form-select-lg example">
+         <option selected >Now</option>
+         <option value="1">8am</option>
+         <option value="2">9am</option>
          <option value="3">Three</option>
         </select>
        </div>
@@ -52,7 +36,9 @@ function Progress() {
        </Link>
        <div>
         <ImArrowUp style={{ fontSize: "2.5rem", color: "grey" }} />
-        <h3 className="touch_" style={{ fontSize: "2.5rem", color: "grey", fontWeight: "900", marginTop: "10px" }}>Touch To Continue</h3>
+        <h3 className="touch_" style={{ fontSize: "2.5rem", color: "grey", fontWeight: "900", marginTop: "10px" }}>
+         Touch To Continue
+        </h3>
        </div>
       </div>
      </div>
