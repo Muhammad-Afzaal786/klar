@@ -2,7 +2,7 @@ import React from "react";
 import Data from "./Data";
 import Carousel from "react-elastic-carousel";
 import { GoArrowLeft, GoArrowRight } from "react-icons/go";
-import Img2 from '../assets/Icons/img.svg'
+
 const breakPoints = [
  { width: 1, itemsToShow: 1 },
  { width: 550, itemsToShow: 1 },
@@ -17,9 +17,9 @@ function TherapySlider() {
      return (
       <div key={idx} sliderPara_div>
        <div className="d-flex justify-content-between align-items-center mx-3">
-       <GoArrowLeft/>
+       <GoArrowLeft style={{fontSize:"3rem", color:"#BF9200"}}/>
         <h2 className="text-center">{val.title}</h2>
-        <GoArrowRight />
+        <GoArrowRight style={{fontSize:"3rem", color:"#BF9200"}}/>
        </div>
        <p style={{fontSize:"13px"}}>{val.para}</p>
       </div>
