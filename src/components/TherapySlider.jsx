@@ -1,7 +1,8 @@
 import React from "react";
 import Data from "./Data";
 import Carousel from "react-elastic-carousel";
-import { BsFillArrowRightSquareFill, BsFillArrowLeftSquareFill } from "react-icons/bs";
+import { GoArrowLeft, GoArrowRight } from "react-icons/go";
+import Img2 from '../assets/Icons/img.svg'
 const breakPoints = [
  { width: 1, itemsToShow: 1 },
  { width: 550, itemsToShow: 1 },
@@ -10,15 +11,15 @@ const breakPoints = [
 ];
 function TherapySlider() {
  return (
-  <div className="scrolldiv mt-4" style={{ cursor: "pointer" }}>
+  <div className="scrolldiv mt-2" style={{ cursor: "pointer" }}>
    <Carousel breakPoints={breakPoints}>
     {Data.map((val, idx) => {
      return (
       <div key={idx} sliderPara_div>
        <div className="d-flex justify-content-between align-items-center mx-3">
-        <BsFillArrowLeftSquareFill style={{ fontSize: "2rem", color: "#bab24a" }} />
+       <GoArrowLeft/>
         <h2 className="text-center">{val.title}</h2>
-        <BsFillArrowRightSquareFill style={{ fontSize: "2rem", color: "#bab24a" }} />
+        <GoArrowRight />
        </div>
        <p style={{fontSize:"13px"}}>{val.para}</p>
       </div>

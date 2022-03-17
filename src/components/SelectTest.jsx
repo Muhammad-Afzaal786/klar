@@ -6,17 +6,18 @@ import Data from "./Data";
 import Items from "./Items";
 import TherapySlider from "./TherapySlider";
 import CountDown from "./countDown";
-//import InputBox from "./inputBox";
-import { AiOutlineContainer } from "react-icons/ai";
-import { IoMdDocument } from "react-icons/io";
+
 import { Link } from "react-router-dom";
 import Data2 from "./Data2";
 
+import Icon from "../assets/Icons/icon";
+import Document from "../assets/Icons/Document";
+
 const breakPoints = [
- { width: 1, itemsToShow: 6 },
- { width: 550, itemsToShow: 8},
- { width: 768, itemsToShow: 8},
- { width: 1200, itemsToShow: 8},
+ { width: 1, itemsToShow: 4 },
+ { width: 550, itemsToShow: 8 },
+ { width: 768, itemsToShow: 8 },
+ { width: 1200, itemsToShow: 8 },
 ];
 function SelectTest() {
  const [cData, setCdata] = useState(Data);
@@ -59,12 +60,12 @@ function SelectTest() {
 
  return (
   <div>
-   <div className="container-fluid">
+   <div className="container-fluid" style={{ overflowY: "hidden" }}>
     <div className="row">
      <div className="col-lg-2 col-md-2 col-sm-12 col-xs-12 colDiv4 ">
       <CurrentTime />
 
-      <div className="cardsItems">
+      <div className="cardsItems ">
        <div className="boxtText">
         <p>BILLED</p>
         <h1>$302</h1>
@@ -77,8 +78,8 @@ function SelectTest() {
         <p>EFFICIENCY</p>
         <h1>76%</h1>
        </div>
-       <div className="boxtText">
-        <AiOutlineContainer style={{ fontSize: "6rem" }} />
+       <div className="boxtText" style={{ backgroundColor: "white", color: "grey" }}>
+        <Icon />
        </div>
       </div>
      </div>
@@ -94,7 +95,7 @@ function SelectTest() {
         })}
        </Carousel>
       </div>
-      <div className="d-flex  mt-2 " style={{ backgroundColor: "#bbbbbb", padding: "10px 0px" }}>
+      <div className="d-flex  mt-2 " style={{ backgroundColor: "#B0B5b7", padding: "10px 0px" }}>
        <Carousel breakPoints={breakPoints}>
         {box.map((val, idx) => {
          console.log(val);
@@ -105,35 +106,26 @@ function SelectTest() {
          );
         })}
        </Carousel>
-
-       {/* {show && <Items>1</Items>}
-       {second && <Items>2</Items>}
-       {third && <Items>3</Items>}
-       <Items>4</Items>
-       <Items className="emptyBox1">6</Items>
-       <Items className="emptyBox1">5</Items>
-
-       <Items className="emptyBox">7</Items>
-       <Items className="emptyBox">8</Items>
-       <Items className="emptyBox">9</Items> */}
       </div>
 
-      <div className="countDown_div">
-       <h1>
-        <CountDown />
-       </h1>
+      <div style={{ backgroundColor: "white", padding: "8px 0px" }}>
+       <div className="countDown_div">
+        <h1>
+         <CountDown />
+        </h1>
+       </div>
       </div>
       <div>
        <TherapySlider />
       </div>
      </div>
-     <div className="col-lg-2 col-md-2 col-sm-12 col-xs-12 colDiv4">
+     <div className="col-lg-2 col-md-2 col-sm-12 col-xs-12 colDiv4 " >
       <Link
        to="/encounter"
        className="btn btn-light d-flex justify-content-center p-0"
        style={{ background: "none", border: "none" }}
       >
-       <img src="./images/Logo_black.png" className="img-fluid img_btn w-75 " alt="" />
+       <img src="./images/logo.png" className="img-fluid img_btn w-75 " alt="" />
       </Link>
       <div>
        <div className="boxtText">
@@ -148,8 +140,8 @@ function SelectTest() {
         <p>EFFICIENCY</p>
         <h1>76%</h1>
        </div>
-       <div className="boxtText">
-        <IoMdDocument style={{ fontSize: "6rem" }} />
+       <div className="boxtText" style={{ backgroundColor: "white" }}>
+      <Document/>
        </div>
       </div>
      </div>

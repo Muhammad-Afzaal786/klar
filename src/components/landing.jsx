@@ -13,14 +13,14 @@ function landing() {
       <form className="form__div">
        <div className="form-row">
         <div className="col form_main">
-         <input type="text" className="form-control main_input" placeholder="Username" />
+         <input type="text" className="form-control main_input" placeholder="username" />
         </div>
         <div className="col my-4">
-         <input type="password" className="form-control main_input" placeholder="Password" />
+         <input type="password" className="form-control main_input" placeholder="password" />
         </div>
        </div>
        <Link to="/progress" className="btn btn-light" style={{ background: "none", border: "none" }}>
-        <img src="./images/Logo_black.png" className="img-fluid img_btn" alt="" />
+        <img src="./images/logo.png" className="img-fluid img_btn" alt="" />
        </Link>
       </form>
      </div>

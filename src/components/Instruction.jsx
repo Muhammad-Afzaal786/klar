@@ -20,7 +20,7 @@ function Instruction() {
       <div className="container-fluid text-center p-0">
        <div className="row">
         <div className="col-12 col-xs-12  inst_container">
-         <h2 className="text_inst">Sent Patient Instructions:</h2>
+         <h2 className="text_inst">Send Patient Instructions:</h2>
          <div className="d-flex justify-content-around my-4">
           <input type="text" className="form-control w-75 main_input2" placeholder="Username" />
           <button className="btn btn-lg blue_btn ">Send</button>
@@ -38,7 +38,7 @@ function Instruction() {
      </div>
      <div className="col-lg-2 col-md-2 col-sm-2 col-xs-12 colDiv5" style={{ borderLeft: "1px solid #d1ccc0" }}>
       <Link to="/" className="btn btn-light" style={{ background: "none", border: "none" }}>
-       <img src="./images/Logo_black.png" className="img-fluid img_btn w-100" alt="" />
+       <img src="./images/logo.png" className="img-fluid img_btn w-100" alt="" />
       </Link>
      </div>
     </div>

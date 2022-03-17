@@ -8,7 +8,7 @@ function Slider() {
   return (
     <div>
          <h2 className='apointment_div'>
-       My next appoinment is <span className='incVal'>{values}</span>min
+       My next appointment is <span className='incVal'>{values}</span><small style={{fontSize:"1.5rem"}}>min</small>
       </h2>
          <Range
       values={values}

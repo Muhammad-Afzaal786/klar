@@ -19,8 +19,8 @@ function Progress() {
        <Slider />
       </div>
 
-      <div className="text-center" style={{ color: "grey" }}>
-       <h1>and it starts at</h1>
+      <div className="text-center" >
+       <div className="it_start"><h1>and it starts at</h1></div>
        <div className="select_focus">
         <select class="form-select form-select-lg mb-3 option-div" aria-label="form-select-lg example">
          <option selected >Now</option>
@@ -32,12 +32,12 @@ function Progress() {
       </div>
       <div className="text-center ">
        <Link to="/select" className="btn btn-light" style={{ background: "none", border: "none" }}>
-        <img src="./images/Logo_black.png" className="img-fluid img_btn" alt="" />
+        <img src="./images/logo.png" className="img-fluid img_btn" alt="" />
        </Link>
        <div>
         <ImArrowUp style={{ fontSize: "2.5rem", color: "grey" }} />
         <h3 className="touch_" style={{ fontSize: "2.5rem", color: "grey", fontWeight: "900", marginTop: "10px" }}>
-         Touch To Continue
+         Touch to continue
         </h3>
        </div>
       </div>
