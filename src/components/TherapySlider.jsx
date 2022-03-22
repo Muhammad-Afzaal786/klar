@@ -21,7 +21,7 @@ function TherapySlider() {
         <h2 className="text-center">{val.title}</h2>
         <GoArrowRight style={{fontSize:"3rem", color:"#BF9200"}}/>
        </div>
-       <p style={{fontSize:"13px"}}>{val.para}</p>
+       <p className="paraTexts">{val.para}</p>
       </div>
      );
     })}

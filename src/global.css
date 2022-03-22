@@ -8,6 +8,9 @@
  box-sizing: border-box;
  font-family: "Raleway", sans-serif;
 }
+.paraTexts{
+    font-size: 1rem;
+}
 .countrDiv {
  margin: 0px 15px;
 }
@@ -79,7 +82,7 @@
  font-family: fontsName;
 }
 .boxtText p {
- font-size: 15px;
+ font-size: 1rem;
 }
 .cardsItems {
  margin-top: 3rem;
@@ -160,6 +163,7 @@
  background-color: #b0b5b7;
  color: white;
  padding: 10px;
+ height: 100vh !important;
 }
 .form__div {
  margin-top: 10rem !important;
@@ -178,7 +182,7 @@
 .main_input2 {
  outline: none;
  background-color: white;
- height: 60px;
+ height: 10vh;
 }
 .main_input:focus {
  border: none;
@@ -225,7 +229,7 @@
  align-items: center;
  margin-top: 0px;
  width: 100%;
- height: 315px;
+ height: 100vh;
  background-color: black;
  color: white;
  font-size: 10rem;
@@ -261,12 +265,14 @@
 .encounter__div {
  background-color: #e4e4e4;
  width: 100vw;
- height: 350px;
+ height:40vh;
  padding: 6px 0px;
  border-radius: 0px;
  border: none;
+ display: flex;
+ align-items: center;
 }
-.encounter__div2 {
+/* .encounter__div2 {
  display: flex;
  justify-content: center;
  align-items: center;
@@ -279,12 +285,13 @@
  border-radius: 5px;
  border: none;
  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-}
+} */
 .encounter-row {
  display: flex;
  justify-content: center;
  align-content: space-between;
  flex-direction: column;
+ width: 100%;
 }
 .cont_div {
  padding: 15px 0px;
@@ -391,7 +398,15 @@
   padding: 2rem 2rem 0rem 2rem !important;
  }
 }
-@media (max-width: 768px) {
+@media (min-width: 480px) {
+    .colDiv4{
+        height: 100vh;
+    }
+    .boxtText{
+        margin: 10px 0px;
+    }
+}
+@media (min-width: 768px) {
  .box_div {
   width: 70px;
   height: 70px;
@@ -399,38 +414,58 @@
  .boxtText {
   background-color: #585a5c;
   text-align: center;
-  margin: 4px 0px;
-  padding: 5px;
+  margin: 15px 0px;
+  padding: 15px 0px;
  }
  .countDown_div {
-  height: 300px;
+  height: 50vh ;
   font-size: 5rem !important;
  }
  .time_d {
-  font-size: 1.7rem;
+  font-size: 1.7rem !;
  }
  .data_d {
-  font-size: 1rem;
+  font-size: 1rem !;
  }
  .emptyBox1 {
   display: none !important;
  }
+ 
+ 
 }
-@media (max-width: 1199.98px) {
- .progressiv_div {
-  padding: 8rem 2rem 0rem 2rem !important;
- }
- .countDown_div {
-  height: 470px;
-  font-size: 5rem !important;
- }
- .boxtText {
-  margin: 20px 0px;
-  padding: 10px 5px;
- }
+@media (min-width: 992px) {
+    .colDiv4{
+        height: 100vh;
+    }
+    .img_btn{
+        width: 25vw;
+    }
+}
+@media (min-width: 1024px) {
+    .colDiv4{
+        height: 100vh;
+    }
+    .img_btn{
+        width: 25vw;
+    }
+    .boxtText {
+        background-color: #585a5c;
+        text-align: center;
+        margin: 15px 0px;
+        padding: 15px 0px;
+       }
 }
 @media (min-width: 1200px) {
  .apointment_div {
   text-align: start;
  }
+ .img_btn{
+    width: 20vw;
+}
+.boxtText {
+    background-color: #585a5c;
+    text-align: center;
+    margin: 10px 0px;
+    padding: 10px 0px;
+   }
 }
