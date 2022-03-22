@@ -17,7 +17,8 @@ const breakPoints = [
  { width: 1, itemsToShow: 4 },
  { width: 550, itemsToShow: 8 },
  { width: 768, itemsToShow: 8 },
- { width: 1200, itemsToShow: 8 },
+ { width: 992, itemsToShow: 12 },
+ { width: 1440, itemsToShow: 10 },
 ];
 function SelectTest() {
  const [cData, setCdata] = useState(Data);
@@ -49,13 +50,7 @@ function SelectTest() {
   }
   console.log(box);
 
-  //   setList([...list, item]);
-  //   console.log(list.find((curItem) => curItem.id === item.id));
-  //   //console.log(item)
-  //   console.log(list);
-  //   setCdata(cData);
-  //   console.log(item);
-  //   setColor(color)
+ 
  };
 
  return (
@@ -83,7 +78,7 @@ function SelectTest() {
        </div>
       </div>
      </div>
-     <div className="col-lg-8 col-md-8 col-sm-12 col-xs-12 my-2" style={{ background: "white", padding: "0px" }}>
+     <div className="col-lg-8 col-md-8 col-sm-12 col-xs-12 my-2 content_wrapper" style={{ background: "white", padding: "0px" }}>
       <div className="smallSlider">
        <Carousel breakPoints={breakPoints}>
         {cData.map((val, idx) => {
@@ -125,7 +120,7 @@ function SelectTest() {
        className="btn btn-light d-flex justify-content-center p-0"
        style={{ background: "none", border: "none" }}
       >
-       <img src="./images/logo.png" className="img-fluid img_btn w-75 " alt="" />
+       <img src="./images/logo.png" className="img-fluid img_btn2 w-75 " alt="" />
       </Link>
       <div>
        <div className="boxtText">

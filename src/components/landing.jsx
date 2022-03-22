@@ -6,16 +6,16 @@ function landing() {
   <div>
    <div className="container-fluid lnding_container">
     <div className="row">
-     <div className="col-lg-2 col-md-2 col-sm-2 col-xs-12 colDiv3">
+     <div className="col-lg-2 col-md-12 col-sm-12 col-xs-12 colDiv3">
      <div className="time_dist">
      <CurrentTime />
      </div>
      </div>
-     <div className="col-lg-8 col-md-8 col-sm-8 col-xs-12 colDiv6">
+     <div className="col-lg-8 col-md-12 col-sm-12 col-xs-12 colDiv6">
       <form className="form__div">
        <div className="form-row">
         <div className="col form_main">
-         <input type="text" className="form-control main_input" placeholder="username" />
+         <input type="text" className="form-control main_input" placeholder="username"style={{fontSize:"2rem"}} />
         </div>
         <div className="col my-4">
          <input type="password" className="form-control main_input" placeholder="password" />
@@ -26,7 +26,7 @@ function landing() {
        </Link>
       </form>
      </div>
-     <div className="col-lg-2 col-md-2 col-sm-2 col-xs-12 colDiv3"></div>
+     <div className="col-lg-2 col-md-12 col-sm-12 col-xs-12 colDiv3"></div>
     </div>
    </div>
   </div>

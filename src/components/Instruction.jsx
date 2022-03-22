@@ -14,7 +14,7 @@ function Instruction() {
       <CurrentTime />
      </div>
      <div
-      className="col-lg-8 col-md-8 col-sm-8 col-xs-12 "
+      className="col-lg-8 col-md-8 col-sm-8 col-xs-12 col_wrpper"
       style={{ backgroundColor: "#B0B5b7", display: "flex", justifyContent: "center", alignItems: "center" }}
      >
       <div className="container-fluid text-center p-0">
