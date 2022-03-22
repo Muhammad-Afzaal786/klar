@@ -148,7 +148,7 @@
 .colDiv3 {
  background-color: #b0b5b7;
  color: white;
- height: auto;
+
  padding: 0px;
  height: 100vh;
 }
@@ -177,7 +177,7 @@
  outline: none;
  background-color: white;
  height: 60px;
- border-radius: 10px;
+ border-radius: 5px;
 }
 .main_input2 {
  outline: none;
@@ -318,6 +318,16 @@
  padding: 2rem 0rem;
 }
 @media (max-width: 576px) {
+    .time_dist{
+        margin-top: 5rem;
+       
+    }
+    .time_d{
+        font-size: 70px;
+    }
+        .data_d{
+            font-size: 25px;
+        }
  .apointment_div {
   font-size: 1.5rem;
   text-align: start;
@@ -378,7 +388,7 @@
   width: 200px !important;
  }
  .colDiv3 {
-  height: 250px;
+  height: 32vh;
  }
  .colDiv5 {
   height: 400px;

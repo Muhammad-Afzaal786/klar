@@ -15,7 +15,7 @@ function CurrentTime() {
   <div className="mt-3">
    <div className="time_setting">
     <h1 className="time_d">{cTime.split(" ")[0]}</h1>
-    <h4 className="data_d">{moment().format("MMM DD, YYYY")}</h4>
+    <h3 className="data_d">{moment().format("MMM DD, YYYY")}</h3>
    </div>
   </div>
  );

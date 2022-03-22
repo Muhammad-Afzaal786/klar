@@ -5,9 +5,9 @@
    
 }
 @media (max-width:576px) { 
-.App{
-    display: none;
-}
+    html{
+        font-size: 9px;
+    }
  }
  @media (min-width:768px) { 
     html{
@@ -21,7 +21,7 @@
          }
          @media (min-width:1024px) { 
             html{
-                font-size: 15px;
+                font-size: 14px;
             }
              }
          @media (min-width:1200px) { 
