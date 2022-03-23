@@ -9,11 +9,11 @@
   font-family: "Raleway", sans-serif;
 }
 input::-webkit-input-placeholder {
-  font-size: 14px;
+  font-size: 1rem;
   line-height: 10;
 }
 input {
-  font-size: 12px !important;
+  font-size: 1rem !important;
 }
 .paraTexts {
   font-size: 1rem;
@@ -66,7 +66,7 @@ input {
   font-weight: 300;
   letter-spacing: 3px;
   word-spacing: 1px;
-  text-align: center;
+  margin-top: 3rem;
 }
 #progressbar {
   width: 100%;
@@ -145,6 +145,7 @@ input {
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 60vh;
 }
 
 .colDiv7 {
@@ -177,10 +178,10 @@ input {
   background-color: #b0b5b7;
   color: white;
   padding: 10px;
- height: 100vh;
+  height: 100vh;
 }
-.img_btn{
-    width: 150px;
+.img_btn {
+  width: 150px;
 }
 .form__div {
   margin-top: 8rem !important;
@@ -197,11 +198,11 @@ input {
   border-radius: 3px;
 }
 .main_input2 {
-    border-radius: 3px;
+  border-radius: 3px;
   outline: none;
   background-color: white;
   height: 10vh;
-  font-size: 15px !important;
+  font-size: 1rem !important;
 }
 .main_input:focus {
   border: none;
@@ -284,7 +285,6 @@ input {
 .encounter__div {
   background-color: #e4e4e4;
   width: 100vw;
-  height: 40vh;
   padding: 6px 0px;
   border-radius: 0px;
   border: none;
@@ -336,23 +336,25 @@ input {
   background-color: #e4e4e4;
   padding: 2rem 0rem;
 }
+
+/* MOBILE Devive */
 @media (max-width: 576px) {
-    input::-webkit-input-placeholder {
-        font-size: 11px;
-        line-height: 10;
-      }
-    .main_input2 {
-        outline: none;
-        background-color: white;
-        height: 8vh;
-        font-size: 15px !important;
-      }
-    .content_wrapper{
-        height: 100%;
-    }
-    .colDiv4{
-     height: 100%;
-    }
+  input::-webkit-input-placeholder {
+    font-size: 11px;
+    line-height: 10;
+  }
+  .main_input2 {
+    outline: none;
+    background-color: white;
+    height: 8vh;
+    font-size: 15px !important;
+  }
+  .content_wrapper {
+    height: 100%;
+  }
+  .colDiv4 {
+    height: 100%;
+  }
   .colDiv8 {
     height: 20vh;
     display: flex;
@@ -365,6 +367,7 @@ input {
   }
   .progressiv_div {
     height: 60vh;
+    
   }
 
   .time_d {
@@ -386,9 +389,6 @@ input {
   .select_focus select {
     font-size: 1.5rem;
     color: #353b48;
-  }
-  .progressiv_div {
-    height: 60vh;
   }
   .touch_ {
     font-size: 1.5rem !important;
@@ -418,7 +418,7 @@ input {
   .emptyBox {
     display: none !important;
   }
-  
+
   .cont_div2 {
     margin-top: 7rem;
     padding: 5px 0px;
@@ -433,14 +433,14 @@ input {
     height: 20vh;
   }
   .colDiv6 {
+    height: 50vh;
+  }
+  .col_wrpper {
     height: 60vh;
   }
-  .col_wrpper{
-    height: 60vh;
-}
   .colDiv5 {
-    height: 20vh;
-    
+    height: 25vh;
+
     display: flex;
     justify-content: center;
   }
@@ -458,7 +458,6 @@ input {
   }
 }
 @media (min-width: 480px) {
-  
   .boxtText {
     margin: 10px 0px;
   }
@@ -469,49 +468,41 @@ input {
     justify-content: center;
     flex-direction: column;
   }
-  .time_d {
-    font-size: 40px;
-  }
 }
+/* Max TAB */
 @media (max-width: 768px) {
   .form__div {
     margin-top: 2rem !important;
     padding: 2rem 0rem;
   }
 
- 
-  
+  .colDiv6 {
+    height: 50vh !important;
+  }
+
   .img_btn {
     width: 170px;
   }
-  .time_d {
-    font-size: 60px;
-  }
-  .data_d {
-    font-size: 25px;
-  }
+
   .range_bar {
-    margin-top: 5rem;
+    margin-top: 0rem;
   }
 }
+
+/* MIN TAB */
 @media (min-width: 768px) {
-    
-  .range_bar {
-    margin-top: 7rem;
+  .progressiv_div {
+    padding-top: 7rem;
+    height: 100vh;
   }
+
   .colDiv8 {
     height: 100vh;
   }
   .main_input {
     height: 60px;
-    font-size: 15px !important;
+
     margin: 20px 0px;
-  }
-  .time_d {
-    font-size: 25px;
-  }
-  .data_d {
-    font-size: 15px;
   }
 
   .box_div {
@@ -533,6 +524,7 @@ input {
     display: none !important;
   }
 }
+                               /* LG TAB */
 @media (min-width: 992px) {
   .colDiv3 {
     align-items: center;
@@ -554,10 +546,19 @@ input {
   .img_btn {
     width: 25vw;
   }
+  .progressiv_div {
+   
+    height: 100vh;
+  }
+
+  .colDiv8 {
+    height: 100vh;
+  }
 }
+/* XL */
 @media (min-width: 1024px) {
-  .range_bar {
-    margin-top: 0rem;
+  .progressiv_div {
+    padding-top: 7rem;
   }
   .colDiv4 {
     height: 100vh;
@@ -575,13 +576,19 @@ input {
     height: 38vh;
     font-size: 3rem !important;
   }
-
+  .colDiv6 {
+    height: 100vh;
+  }
 }
+/* XXL */
 @media (min-width: 1200px) {
-    .countDown_div {
-        height: 55vh;
-        font-size: 3rem !important;
-      }
+  .progressiv_div {
+    padding-top: 3 rem;
+  }
+  .countDown_div {
+    height: 55vh;
+    font-size: 3rem !important;
+  }
   .apointment_div {
     text-align: start;
   }
@@ -595,13 +602,19 @@ input {
     padding: 10px 0px;
   }
 }
+@media (min-width: 1400px) {
+  .progressiv_div {
+    padding-top: 1rem;
+  }
+}
+
 @media (min-width: 1800px) {
   .main_input {
     height: 10vh;
     width: 50vw;
   }
   .time_d {
-    font-size: 100px;
+    font-size: 80px;
   }
   .data_d {
     font-size: 30px;

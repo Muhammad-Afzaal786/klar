@@ -31,9 +31,9 @@ function Progress() {
                   aria-label="form-select-lg example"
                 >
                   <option selected>Now</option>
-                  <option value="1">8am</option>
-                  <option value="2">9am</option>
-                  <option value="3">Three</option>
+                  <option value="1">7am</option>
+                  <option value="2">7:15am</option>
+                  <option value="3">7:15am</option>
                 </select>
               </div>
             </div>

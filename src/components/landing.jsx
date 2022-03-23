@@ -15,7 +15,7 @@ function landing() {
       <form className="form__div">
        <div className="form-row">
         <div className="col form_main">
-         <input type="text" className="form-control main_input" placeholder="username"style={{fontSize:"2rem"}} />
+         <input type="text" className="form-control main_input" placeholder="username" style={{fontSize:"2rem"}} />
         </div>
         <div className="col my-4">
          <input type="password" className="form-control main_input" placeholder="password" />

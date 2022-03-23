@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 import { Range, getTrackBackground } from "react-range";
 function Slider() {
-  const STEP = 5;
-  const MIN = 20;
+  const STEP = 15;
+  const MIN = 15;
   const MAX = 75;
-  const [values, setValues] = useState([25]);
+  const [values, setValues] = useState([30]);
   return (
     <div>
       <h2 className="apointment_div">
