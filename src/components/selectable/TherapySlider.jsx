@@ -1,5 +1,5 @@
 import React from "react";
-import Data from "./Data";
+import Data from "../Data";
 import Carousel from "react-elastic-carousel";
 import { GoArrowLeft, GoArrowRight } from "react-icons/go";
 

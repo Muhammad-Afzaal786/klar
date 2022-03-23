@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import CurrentTime from "./CurrentTime";
+import CurrentTime from "../CurrentTime";
 function landing() {
  return (
   <div>

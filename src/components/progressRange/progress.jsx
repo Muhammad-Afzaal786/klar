@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import CurrentTime from "./CurrentTime";
+import CurrentTime from "../CurrentTime";
 import { ImArrowUp } from "react-icons/im";
 import Slider from "./Slider";
 function Progress() {
@@ -8,13 +8,13 @@ function Progress() {
     <div>
       <div className="container-fluid">
         <div className="row">
-          <div className="col-lg-2 col-md-2 col-sm-12 col-xs-12 colDiv8">
+          <div className="col-lg-2 col-md-12 col-sm-12 col-xs-12 colDiv8">
             <div style={{ fontSize: "20px" }}>
               <CurrentTime />
             </div>
           </div>
           <div
-            className="col-lg-8 col-md-8 col-sm-12 col-xs-12 progressiv_div"
+            className="col-lg-8 col-md-12 col-sm-12 col-xs-12 progressiv_div"
             style={{ backgroundColor: "#eeeeee" }}
           >
             <div className="range_bar">
@@ -65,7 +65,7 @@ function Progress() {
               </div>
             </div>
           </div>
-          <div className="col-lg-2 col-md-2 col-sm-12 col-xs-12 colDiv8"></div>
+          <div className="col-lg-2 col-md-12 col-sm-12 col-xs-12 colDiv8"></div>
         </div>
       </div>
     </div>

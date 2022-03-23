@@ -1,6 +1,6 @@
 import React from "react";
 import { Link, useNavigate } from "react-router-dom";
-import CurrentTime from "./CurrentTime";
+import CurrentTime from "../CurrentTime";
 function Instruction() {
  const navigate = useNavigate();
  const backPage = () => {

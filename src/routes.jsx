@@ -1,10 +1,10 @@
 import React from "react";
-import Landing from "./components/landing";
-import Progress from "./components/progress";
-import SelectTest from "./components/SelectTest";
-import Encounter from "./components/Encounter";
-import Instruction from "./components/Instruction";
-import Slider from "./components/Slider";
+import Landing from "./components/Landing/landing";
+import Progress from "./components/progressRange/progress";
+import SelectTest from "./components/selectable/SelectTest";
+import Encounter from "./components/encounter/Encounter";
+import Instruction from "./components/Pinstruction/Instruction";
+import Slider from "./components/progressRange/Slider";
 import { Routes, Route } from "react-router-dom";
 import Drag from "./components/dnd/Drag";
 function routes() {

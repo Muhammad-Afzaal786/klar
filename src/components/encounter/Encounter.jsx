@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import CurrentTime from "./CurrentTime";
+import CurrentTime from "../CurrentTime";
 import { GoArrowLeft, GoArrowRight } from "react-icons/go";
 function Encounter() {
  return (

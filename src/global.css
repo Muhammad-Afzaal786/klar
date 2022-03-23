@@ -477,7 +477,7 @@ input {
   }
 
   .colDiv6 {
-    height: 50vh !important;
+    height: 60vh !important;
   }
 
   .img_btn {
@@ -492,12 +492,12 @@ input {
 /* MIN TAB */
 @media (min-width: 768px) {
   .progressiv_div {
-    padding-top: 7rem;
-    height: 100vh;
+    padding-top: 2rem;
+    height: 60vh;
   }
 
   .colDiv8 {
-    height: 100vh;
+    height: 20vh;
   }
   .main_input {
     height: 60px;

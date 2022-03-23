@@ -1,17 +1,17 @@
 import React, { useEffect, useState } from "react";
-import CurrentTime from "./CurrentTime";
+import CurrentTime from "../CurrentTime";
 import Carousel from "react-elastic-carousel";
-import Data from "./Data";
+import Data from "../Data";
 //import Item from "./Item";
 import Items from "./Items";
 import TherapySlider from "./TherapySlider";
 import CountDown from "./countDown";
 
 import { Link } from "react-router-dom";
-import Data2 from "./Data2";
+import Data2 from "../Data2";
 
-import Icon from "../assets/Icons/icon";
-import Document from "../assets/Icons/Document";
+import Icon from "../../assets/Icons/icon";
+import Document from "../../assets/Icons/Document";
 
 const breakPoints = [
  { width: 1, itemsToShow: 4 },
