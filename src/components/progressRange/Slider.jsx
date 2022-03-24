@@ -6,7 +6,7 @@ function Slider() {
   const MAX = 75;
   const [values, setValues] = useState([30]);
   return (
-    <div>
+    <div className="px-4">
       <h2 className="apointment_div">
         My next appointment is <span className="incVal">{values}</span>
         <small style={{ fontSize: "1.5rem" }}>min</small>

@@ -1,36 +1,35 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import CurrentTime from "../CurrentTime";
+import "./index.css";
 function landing() {
- return (
-  <div>
-   <div className="container-fluid lnding_container">
-    <div className="row">
-     <div className="col-lg-2 col-md-12 col-sm-12 col-xs-12 colDiv3">
-     <div className="time_dist">
-     <CurrentTime />
-     </div>
-     </div>
-     <div className="col-lg-8 col-md-12 col-sm-12 col-xs-12 colDiv6">
-      <form className="form__div">
-       <div className="form-row">
-        <div className="col form_main">
-         <input type="text" className="form-control main_input" placeholder="username" style={{fontSize:"2rem"}} />
+  return (
+    <div>
+      <div className="main_wrappr">
+        <div className="small_clm">
+          <div className="text-white">
+            <CurrentTime />
+          </div>
         </div>
-        <div className="col my-4">
-         <input type="password" className="form-control main_input" placeholder="password" />
+        <div className="big_clm">
+          <input type="text" className="input_div" placeholder="username" />
+          <input type="password" className="input_div" placeholder="password" />
+          <Link
+            to="/progress"
+            className="btn btn-light"
+            style={{ background: "none", border: "none" }}
+          >
+            <img
+              src="./images/logo.png"
+              className="img-fluid klar-img"
+              alt=""
+            />
+          </Link>
         </div>
-       </div>
-       <Link to="/progress" className="btn btn-light" style={{ background: "none", border: "none" }}>
-        <img src="./images/logo.png" className="img-fluid img_btn" alt="" />
-       </Link>
-      </form>
-     </div>
-     <div className="col-lg-2 col-md-12 col-sm-12 col-xs-12 colDiv3"></div>
+        <div className="small_clm"></div>
+      </div>
     </div>
-   </div>
-  </div>
- );
+  );
 }
 
 export default landing;

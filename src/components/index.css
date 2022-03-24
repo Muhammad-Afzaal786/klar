@@ -6,22 +6,19 @@
 
 @media (max-width: 576px) {
   html {
-    font-size: 9px;
+    font-size: 7px;
   }
 }
+
 @media (min-width: 768px) {
   html {
-    font-size: 16px;
+    font-size: 10px;
   }
 }
-@media (min-width: 992px) {
-  html {
-    font-size: 15px;
-  }
-}
+
 @media (min-width: 1024px) {
   html {
-    font-size: 16px;
+    font-size: 10px;
   }
 }
 @media (min-width: 1200px) {
@@ -36,6 +33,6 @@
 }
 @media (min-width: 1800px) {
   html {
-    font-size: 33px;
+    font-size: 25px;
   }
 }

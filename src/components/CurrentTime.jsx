@@ -11,7 +11,7 @@ function CurrentTime() {
     console.log("Hello world");
   });
   return (
-    <div className="mt-3">
+    <div className="mt-3 ">
       <div className="time_setting">
         <h1 className="time_d">{cTime.split(" ")[0]}</h1>
         <h3 className="data_d">{moment().format("MMM DD, YYYY")}</h3>

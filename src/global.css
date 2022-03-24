@@ -9,7 +9,7 @@
   font-family: "Raleway", sans-serif;
 }
 input::-webkit-input-placeholder {
-  font-size: 1rem;
+  font-size: 1.5rem;
   line-height: 10;
 }
 input {
@@ -32,22 +32,12 @@ input {
 .text_inst {
   color: #585a5c;
 }
-.select_focus select {
-  font-size: 2rem;
-  font-weight: 900;
-  color: #353b48;
-  background-color: #f5f6fa;
-}
-.select_focus select:focus {
-  outline: none;
-  box-shadow: none;
-  border: none;
-}
+
 .time_setting {
   text-align: center;
 }
 .time_d {
-  font-size: 4rem;
+  font-size: 5rem;
   margin-bottom: 0px;
 }
 .date_d {
@@ -56,18 +46,8 @@ input {
   letter-spacing: 4px;
 }
 
-.incVal {
-  font-weight: 600;
-  font-size: 3.2rem;
-}
-.apointment_div {
-  color: #585a5c;
-  font-size: 3rem;
-  font-weight: 300;
-  letter-spacing: 3px;
-  word-spacing: 1px;
-  margin-top: 3rem;
-}
+
+
 #progressbar {
   width: 100%;
   top: 0;
@@ -98,19 +78,7 @@ input {
   width: 30%;
   height: 4rem;
 }
-.select_focus {
-  margin-top: 2rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.select_focus[type] {
-  font-size: 3rem;
-}
-.select_focus:focus {
-  outline: none !important;
-  box-shadow: none !important;
-}
+
 .seleced {
   width: 150px;
 
@@ -154,13 +122,6 @@ input {
   justify-content: center;
   align-items: center;
 }
-.colDiv3 {
-  background-color: #b0b5b7;
-  color: white;
-
-  padding: 0px;
-  height: 100vh;
-}
 .colDiv8 {
   background-color: #b0b5b7;
   color: white;
@@ -191,12 +152,7 @@ input {
   flex-direction: column;
   margin-top: 3rem;
 }
-.main_input {
-  outline: none;
-  background-color: white;
-  height: 60px;
-  border-radius: 3px;
-}
+
 .main_input2 {
   border-radius: 3px;
   outline: none;
@@ -204,11 +160,7 @@ input {
   height: 10vh;
   font-size: 1rem !important;
 }
-.main_input:focus {
-  border: none;
-  outline: none;
-  box-shadow: none;
-}
+
 .main_input2:focus {
   border: none;
   outline: none;
@@ -362,24 +314,17 @@ input {
     justify-content: center;
     flex-direction: column;
   }
-  .time_d {
-    font-size: 40px;
-  }
+  
   .progressiv_div {
     height: 60vh;
     
   }
 
-  .time_d {
-    font-size: 50px;
-  }
+  
   .data_d {
     font-size: 20px;
   }
-  .apointment_div {
-    font-size: 1.5rem;
-    text-align: start;
-  }
+  
   .it_start h1 {
     font-size: 2rem;
   }
@@ -429,9 +374,7 @@ input {
   .input_d {
     width: 200px !important;
   }
-  .colDiv3 {
-    height: 20vh;
-  }
+
   .colDiv6 {
     height: 50vh;
   }
@@ -452,21 +395,11 @@ input {
     width: 100vw;
     padding: 1rem 1rem;
   }
-  .main_input {
-    height: 50px;
-    font-size: 15px !important;
-  }
+  
 }
 @media (min-width: 480px) {
   .boxtText {
     margin: 10px 0px;
-  }
-  .colDiv3 {
-    height: 20vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
   }
 }
 /* Max TAB */
@@ -499,11 +432,7 @@ input {
   .colDiv8 {
     height: 20vh;
   }
-  .main_input {
-    height: 60px;
-
-    margin: 20px 0px;
-  }
+  
 
   .box_div {
     width: 70px;
@@ -526,17 +455,7 @@ input {
 }
                                /* LG TAB */
 @media (min-width: 992px) {
-  .colDiv3 {
-    align-items: center;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: start;
-    flex-direction: column;
-  }
-  .time_d {
-    font-size: 50px;
-  }
+  
   .data_d {
     font-size: 20px;
   }
@@ -589,9 +508,7 @@ input {
     height: 55vh;
     font-size: 3rem !important;
   }
-  .apointment_div {
-    text-align: start;
-  }
+  
   .img_btn {
     width: 20vw;
   }
@@ -609,13 +526,8 @@ input {
 }
 
 @media (min-width: 1800px) {
-  .main_input {
-    height: 10vh;
-    width: 50vw;
-  }
-  .time_d {
-    font-size: 80px;
-  }
+ 
+  
   .data_d {
     font-size: 30px;
   }
