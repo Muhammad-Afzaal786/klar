@@ -74,10 +74,7 @@ input {
 .cardsItems {
   margin-top: 3rem;
 }
-.option-div {
-  width: 30%;
-  height: 4rem;
-}
+
 
 .seleced {
   width: 150px;
@@ -335,16 +332,11 @@ input {
     font-size: 1.5rem;
     color: #353b48;
   }
-  .touch_ {
-    font-size: 1.5rem !important;
-  }
+  
   .img_btn {
     width: 100px !important;
   }
-  .option-div {
-    width: 50%;
-    height: 3rem;
-  }
+  
   /* .progressiv_div {
   padding: 3rem 1rem !important;
  } */

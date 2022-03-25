@@ -36,7 +36,7 @@ function Progress() {
               >
                 <img
                   src="./images/logo.png"
-                  className="img-fluid klar-img"
+                  className="img-fluid klar-img2"
                   alt=""
                 />
               </Link>
@@ -48,12 +48,7 @@ function Progress() {
               </div>
               <h3
                 className="touch_"
-                style={{
-                  fontSize: "2.5rem",
-                  color: "grey",
-                  fontWeight: "900",
-                  marginTop: "10px",
-                }}
+          
               >
                 Touch to continue
               </h3>

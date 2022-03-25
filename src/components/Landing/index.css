@@ -5,6 +5,7 @@
   overflow: auto;
 }
 .small_clm {
+  
   background-color: #b0b5b7;
   flex: 1;
 }
@@ -30,10 +31,11 @@
   font-weight: 400;
 }
 
+
 .klar-img {
   width: 30%;
   height: auto;
-  width: calc(100% - 50%);
+  width: calc(100% - 60%);
 }
 @media only screen and (min-width: 768px) {
   .main_wrappr {
@@ -65,6 +67,11 @@
 }
 
 @media only screen and (max-width: 576px) {
+  .small_clm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   .main_wrappr {
     flex-direction: column;
   }
