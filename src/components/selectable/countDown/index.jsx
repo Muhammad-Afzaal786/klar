@@ -10,9 +10,9 @@ function CountDown() {
  
 
  return (
-  <div>
+  <>
    <p>{`${minutes}:${seconds}`}</p>
-  </div>
+  </>
  );
 }
 

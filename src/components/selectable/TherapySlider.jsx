@@ -15,13 +15,15 @@ function TherapySlider() {
    <Carousel breakPoints={breakPoints}>
     {Data.map((val, idx) => {
      return (
-      <div key={idx} sliderPara_div>
-       <div className="d-flex justify-content-between align-items-center mx-3">
-       <GoArrowLeft style={{fontSize:"3rem", color:"#BF9200"}}/>
-        <h2 className="text-center">{val.title}</h2>
-        <GoArrowRight style={{fontSize:"3rem", color:"#BF9200"}}/>
+      <div key={idx} className="sliderPara_div">
+       <div className="d-flex justify-content-between align-items-center">
+       <GoArrowLeft className="lRight_icon" />
+        <h1 className="text-center">{val.title}</h1>
+        <GoArrowRight className="lRight_icon" />
        </div>
-       <p className="paraTexts">{val.para}</p>
+      <div className="init">
+      <p className="paraTexts">{val.para}</p>
+      </div>
       </div>
      );
     })}

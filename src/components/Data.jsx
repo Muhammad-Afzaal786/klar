@@ -20,7 +20,7 @@ const Data = [
   isFill: true,
   title: "THERAPUTECS EXERCISE",
   para:
-   "I quote all work on a per-project basis so you know the exact amount you will pay for the whole project. No matter how many hours or days . I also offer free initial consultation to determine the exact requirements and best route forward before initiating the contract. In order for me to provide you with an upfront quote of the total cost, please send me all relevant material and detailed instructions about the help you need.I quote all work on a per-project basis so you know the exact amount you will pay for the whole project. No matter how many hours or days .",
+   "I quote all work on a per-project basis so you know the exact amount you will pay for the whole project. No matter how many hours or days . I also offer free initial consultation to determine the exact requirements and best route forward before initiating the contract. In order for me to provide you with an upfront quote of the total cost, please send me all relevant material and detailed instructions about the help you need.I quote all work on a per-project basis so you know the exact amount you will pay for the whole project. No matter how many hours or days .I also offer free initial consultation to determine the exact requirements and best route forward before initiating the contract. In order for me to provide you with an upfront quote of the total cost, please send me all relevant material and detailed instructions about the help you need.I quote all work on a per-project basis so you know the exact amount you will pay for the whole project. No matter how many hours or days",
  },
  {
   id: 2,
@@ -38,7 +38,7 @@ const Data = [
   name: "Elic-stim(Un)",
   title: "PATIENT EDUCATION",
   para:
-   "I quote all work on a per-project basis so you know the exact amount you will pay for the whole project. No matter how many hours or days . please send me all relevant material and detailed instructions about the help you need.I quote all work on a per-project basis so you know the exact amount you will pay for the whole project. No matter how many hours or days . please send me all relevant material and detailed instructions about the help you need.",
+   "I quote all work on a per-project basis so you know the exact amount you will pay for the whole project. No matter how many hours or days . please send me all relevant material and detailed instructions about the help you need.I quote all work on a per-project basis so you know the exact amount you will pay for the whole project. No matter how many hours or days . please send me all relevant material and detailed instructions about the help you need.please send me all relevant material and detailed instructions about the help you need.please send me all relevant material and detailed instructions about the help you need.please send me all relevant material and detailed instructions about the help you need.",
  },
  {
   id: 4,
@@ -47,7 +47,7 @@ const Data = [
   name: " Eval",
   title: "THERAPUTECS EXERCISE",
   para:
-   "I quote all work on a per-project basis so you know the exact amount you will pay for the whole project. No matter how many hours or days . please send me all relevant material and detailed instructions about the help you need.I quote all work on a per-project basis so you know the exact amount you will pay for the whole project. No matter how many hours or days . please send me all relevant material and detailed instructions about the help you need.",
+   "I quote all work on a per-project basis so you know the exact amount you will pay for the whole project. No matter how many hours or days . please send me all relevant material and detailed instructions about the help you need.I quote all work on a per-project basis so you know the exact amount you will pay for the whole project. No matter how many hours or days . please send me all relevant material and detailed instructions about the help you need.please send me all relevant material and detailed instructions about the help you need.please send me all relevant material and detailed instructions about the help you need.please send me all relevant material and detailed instructions about the help you need.",
  },
  {
   id: 5,
@@ -56,7 +56,7 @@ const Data = [
   name: " Gait",
   title: "THERAPUTECS EXERCISE",
   para:
-   "I quote all work on a per-project basis so you know the exact amount you will pay for the whole project. No matter how many hours or days . please send me all relevant material and detailed instructions about the help you need.I quote all work on a per-project basis so you know the exact amount you will pay for the whole project. No matter how many hours or days . please send me all relevant material and detailed instructions about the help you need.",
+   "I quote all work on a per-project basis so you know the exact amount you will pay for the whole project. No matter how many hours or days . please send me all relevant material and detailed instructions about the help you need.I quote all work on a per-project basis so you know the exact amount you will pay for the whole project. No matter how many hours or days . please send me all relevant material and detailed instructions about the help you need.please send me all relevant material and detailed instructions about the help you need.please send me all relevant material and detailed instructions about the help you need.please send me all relevant material and detailed instructions about the help you need.",
  },
  {
   id: 6,
@@ -65,7 +65,7 @@ const Data = [
   name: " H/C pack",
   title: "THERAPUTECS EXERCISE",
   para:
-   "I quote all work on a per-project basis so you know the exact amount you will pay for the whole project. No matter how many hours or days . please send me all relevant material and detailed instructions about the help you need.I quote all work on a per-project basis so you know the exact amount you will pay for the whole project. No matter how many hours or days . please send me all relevant material and detailed instructions about the help you need.",
+   "I quote all work on a per-project basis so you know the exact amount you will pay for the whole project. No matter how many hours or days . please send me all relevant material and detailed instructions about the help you need.I quote all work on a per-project basis so you know the exact amount you will pay for the whole project. No matter how many hours or days . please send me all relevant material and detailed instructions about the help you need.please send me all relevant material and detailed instructions about the help you need.please send me all relevant material and detailed instructions about the help you need.please send me all relevant material and detailed instructions about the help you need.",
  },
  {
   id: 7,
@@ -74,7 +74,7 @@ const Data = [
   name: " lonto",
   title: "THERAPUTECS EXERCISE",
   para:
-   "I quote all work on a per-project basis so you know the exact amount you will pay for the whole project. No matter how many hours or days . please send me all relevant material and detailed instructions about the help you need.I quote all work on a per-project basis so you know the exact amount you will pay for the whole project. No matter how many hours or days . please send me all relevant material and detailed instructions about the help you need.",
+   "I quote all work on a per-project basis so you know the exact amount you will pay for the whole project. No matter how many hours or days . please send me all relevant material and detailed instructions about the help you need.I quote all work on a per-project basis so you know the exact amount you will pay for the whole project. No matter how many hours or days . please send me all relevant material and detailed instructions about the help you need.please send me all relevant material and detailed instructions about the help you need.please send me all relevant material and detailed instructions about the help you need.please send me all relevant material and detailed instructions about the help you need.",
  },
  {
   id: 8,
@@ -83,7 +83,7 @@ const Data = [
   name: " Message",
   title: "THERAPUTECS EXERCISE",
   para:
-   "I quote all work on a per-project basis so you know the exact amount you will pay for the whole project. No matter how many hours or days . please send me all relevant material and detailed instructions about the help you need.I quote all work on a per-project basis so you know the exact amount you will pay for the whole project. No matter how many hours or days . please send me all relevant material and detailed instructions about the help you need.",
+   "I quote all work on a per-project basis so you know the exact amount you will pay for the whole project. No matter how many hours or days . please send me all relevant material and detailed instructions about the help you need.I quote all work on a per-project basis so you know the exact amount you will pay for the whole project. No matter how many hours or days . please send me all relevant material and detailed instructions about the help you need.please send me all relevant material and detailed instructions about the help you need.please send me all relevant material and detailed instructions about the help you need.please send me all relevant material and detailed instructions about the help you need.",
  },
  {
   id: 9,
@@ -91,7 +91,7 @@ const Data = [
   isFill: true,
   name: " MT",
   para:
-   "I quote all work on a per-project basis so you know the exact amount you will pay for the whole project. No matter how many hours or days . please send me all relevant material and detailed instructions about the help you need.I quote all work on a per-project basis so you know the exact amount you will pay for the whole project. No matter how many hours or days . please send me all relevant material and detailed instructions about the help you need.",
+   "I quote all work on a per-project basis so you know the exact amount you will pay for the whole project. No matter how many hours or days . please send me all relevant material and detailed instructions about the help you need.I quote all work on a per-project basis so you know the exact amount you will pay for the whole project. No matter how many hours or days . please send me all relevant material and detailed instructions about the help you need.please send me all relevant material and detailed instructions about the help you need.please send me all relevant material and detailed instructions about the help you need.please send me all relevant material and detailed instructions about the help you need.",
  },
  {
   id: 10,
@@ -100,7 +100,7 @@ const Data = [
   name: " NmRE",
   title: "THERAPUTECS EXERCISE",
   para:
-   "I quote all work on a per-project basis so you know the exact amount you will pay for the whole project. No matter how many hours or days . please send me all relevant material and detailed instructions about the help you need.I quote all work on a per-project basis so you know the exact amount you will pay for the whole project. No matter how many hours or days . please send me all relevant material and detailed instructions about the help you need.",
+   "I quote all work on a per-project basis so you know the exact amount you will pay for the whole project. No matter how many hours or days . please send me all relevant material and detailed instructions about the help you need.I quote all work on a per-project basis so you know the exact amount you will pay for the whole project. No matter how many hours or days . please send me all relevant material and detailed instructions about the help you need.please send me all relevant material and detailed instructions about the help you need.please send me all relevant material and detailed instructions about the help you need.please send me all relevant material and detailed instructions about the help you need.",
  },
  {
   id: 11,
