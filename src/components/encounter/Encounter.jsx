@@ -5,6 +5,10 @@ import { GoArrowLeft, GoArrowRight } from "react-icons/go";
 function Encounter() {
  return (
   <div>
+    
+
+
+
    <div className="container-fluid lnding_container">
     <div className="row">
      <div className="col-lg-2 col-md-2 col-sm-2 col-xs-12 colDiv5" style={{ borderRight: "1px solid #d1ccc0" }}>

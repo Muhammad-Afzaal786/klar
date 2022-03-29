@@ -42,11 +42,7 @@
     flex-direction: row;
   }
 }
-@media only screen and (max-width: 768px) {
-  .main_wrappr {
-    flex-direction: column;
-  }
-}
+
 @media only screen and (min-width: 1024px) {
   .big_clm {
     padding-top: 11rem;
@@ -61,8 +57,11 @@
   } */
 @media only screen and (min-width: 1800px) {
   .klar-img {
-    width: 100%;
+    width: 80%;
     height: auto;
+  }
+  .input_div {
+    padding: 1rem 1rem;
   }
 }
 
@@ -86,7 +85,7 @@
     line-height: 10;
   }
 }
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+@media only screen and (min-device-width: 768px) and (max-device-width: 991.98px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
   .input_div {
     font-size: 25px !important;
   }
@@ -100,4 +99,16 @@
   .time_d {
     font-size: 5rem !important;
   }
+  .main_wrappr {
+    flex-direction: column;
+  }
+}
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 991.98px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .main_wrappr {
+      flex-direction:row;
+    }
 }

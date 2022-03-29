@@ -46,8 +46,6 @@ input {
   letter-spacing: 4px;
 }
 
-
-
 #progressbar {
   width: 100%;
   top: 0;
@@ -66,7 +64,6 @@ input {
   margin-top: 3rem;
 }
 
-
 .seleced {
   width: 150px;
 
@@ -79,8 +76,8 @@ input {
 
 .sliderPara_div {
   width: 100%;
+
   
-  overflow-y: scroll;
 }
 
 .blue_btn {
@@ -170,15 +167,13 @@ input {
   border: none;
 }
 
-
-
 .countDown_div > h1 {
   font-size: 15rem !important;
 }
 .scrolldiv {
   width: 100%;
-  
-  overflow-y:scroll;
+
+ 
 }
 .encounter_container {
   height: 100vh;
@@ -268,7 +263,7 @@ input {
     height: 8vh;
     font-size: 15px !important;
   }
-  
+
   .colDiv4 {
     height: 100%;
   }
@@ -279,30 +274,28 @@ input {
     justify-content: center;
     flex-direction: column;
   }
-  
+
   .progressiv_div {
     height: 60vh;
-    
   }
 
-  
   .data_d {
     font-size: 20px;
   }
-  
+
   .it_start h1 {
     font-size: 2rem;
   }
-  
+
   .select_focus select {
     font-size: 1.5rem;
     color: #353b48;
   }
-  
+
   .img_btn {
     width: 100px !important;
   }
-  
+
   /* .progressiv_div {
   padding: 3rem 1rem !important;
  } */
@@ -312,7 +305,7 @@ input {
   .form_main {
     width: 250px;
   }
-  
+
   .smallSlider {
     margin: 10px 0px;
   }
@@ -351,7 +344,6 @@ input {
     width: 100vw;
     padding: 1rem 1rem;
   }
-  
 }
 
 /* Max TAB */
@@ -384,24 +376,13 @@ input {
   .colDiv8 {
     height: 20vh;
   }
-  
-
-  
-  .boxtText {
-    background-color: #585a5c;
-    text-align: center;
-    margin: 15px 0px;
-    padding: 15px 0px;
-  }
-  
 
   .emptyBox1 {
     display: none !important;
   }
 }
-                               /* LG TAB */
+/* LG TAB */
 @media (min-width: 992px) {
-  
   .data_d {
     font-size: 20px;
   }
@@ -412,7 +393,6 @@ input {
     width: 25vw;
   }
   .progressiv_div {
-   
     height: 100vh;
   }
 
@@ -431,14 +411,7 @@ input {
   .img_btn {
     width: 18vw;
   }
-  .boxtText {
-    background-color: #585a5c;
-    text-align: center;
-    margin: 5px 0px;
-    padding: 5px 0px;
-  
-  }
-  
+
   .colDiv6 {
     height: 100vh;
   }
@@ -448,16 +421,9 @@ input {
   .progressiv_div {
     padding-top: 3 rem;
   }
-  
-  
+
   .img_btn {
     width: 20vw;
-  }
-  .boxtText {
-    background-color: #585a5c;
-    text-align: center;
-    margin: 10px 0px;
-    padding: 10px 0px;
   }
 }
 @media (min-width: 1400px) {
@@ -467,8 +433,6 @@ input {
 }
 
 @media (min-width: 1800px) {
- 
-  
   .data_d {
     font-size: 30px;
   }

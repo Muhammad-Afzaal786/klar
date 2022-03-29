@@ -1,5 +1,5 @@
 .main_wrappr2 {
-  width: auto;
+  width: 100%;
   height: 100vh;
   display: flex;
   overflow: auto;
@@ -81,7 +81,8 @@
   width: 15rem !important;
   height: 4rem;
 }
-@media (max-width: 575.98px) {
+@media (min-width: 320px) {
+  /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
   .small_clm2 {
     display: flex;
     justify-content: center;
@@ -103,6 +104,9 @@
   .progrs_clm {
     flex: 1;
   }
+}
+@media (max-width: 575.98px) {
+  
 }
 @media (min-width: 576px) and (max-width: 767.98px) {
   .option-div {
@@ -179,7 +183,7 @@
     width: calc(100% - 40%);
   }
   .progrs_clm {
-    padding-top: 4rem;
+    padding-top: 2.5rem;
   }
 }
 @media only screen and (min-width: 1800px) {
@@ -189,6 +193,9 @@
   }
   .touch_ {
     font-size: 2rem;
+  }
+  .main_wrappr2 {
+    height: auto;
   }
 }
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
@@ -219,7 +226,12 @@
   .select_focus select {
     font-size: 3rem;
   }
-  .min{
+  .min {
     font-size: 2rem;
   }
+  .progrs_clm {
+    padding-top: 2rem;
+  }
+}
+@media only screen and (min-device-width: 768px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
 }

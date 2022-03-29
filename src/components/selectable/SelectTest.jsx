@@ -3,6 +3,7 @@ import CurrentTime from "../CurrentTime";
 import "./select.css";
 import Data from "../Data";
 //import Item from "./Item";
+import MobileScree from "./MobileScree";
 
 import TherapySlider from "./TherapySlider";
 import CountDown from "./countDown";
@@ -46,35 +47,21 @@ function SelectTest() {
 
   return (
     <>
+      <MobileScree
+        cData={cData}
+        addItems={addItems}
+        box={box}
+        isColor={isColor}
+      />
+      {/* =========  Large Screen ===== */}
 
-    <div className="mobile_wrapper">
-         <div>
-         <CurrentTime />
-         </div>
-         <div>
-         <CountDown />
-         </div>
-         <div>
-         <Link
-            to="/encounter"
-            className="btn btn-light d-flex justify-content-center p-0"
-            style={{ background: "none", border: "none" }}
-          >
-            <img
-              src="./images/logo.png"
-              className="img-fluid select-img "
-              alt=""
-            />
-          </Link>
-         </div>
-    </div>
-      <div className="select_wrappr">
+      <div className="select_wrappr ">
         <div className="select_clm">
           <div className="text-white">
             <CurrentTime />
           </div>
 
-          <div className="boxtText">
+          <div className="boxtText mt-2">
             <p>BILLED</p>
             <h1>$302</h1>
           </div>
@@ -94,21 +81,26 @@ function SelectTest() {
           </div>
         </div>
         <div className="select_big_clm">
-          <div style={{ background: "white", padding: "0px" }}>
+          <div
+            style={{ background: "white", padding: "0px" }}
+            className="topCaro"
+          >
             <TopCarousel
               cData={cData}
               addItems={addItems}
               box={box}
               isColor={isColor}
             />
+          </div>
+          <div className="countDown_div">
+            <CountDown />
+          </div>
 
-            <div className="countDown_div">
-              <CountDown />
-            </div>
-
+          <div className="thrapy">
             <TherapySlider />
           </div>
         </div>
+
         <div className="select_clm">
           <Link
             to="/encounter"
@@ -121,7 +113,7 @@ function SelectTest() {
               alt=""
             />
           </Link>
-          <div className="boxtText">
+          <div className="boxtText mt-0">
             <p>CURRENT </p>
             <h1>NmRE</h1>
           </div>
@@ -138,8 +130,6 @@ function SelectTest() {
           </div>
         </div>
       </div>
-
-     
     </>
   );
 }
