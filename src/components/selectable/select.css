@@ -91,7 +91,7 @@
   align-items: center;
   background-color: var(--darkGrey);
   color: white;
-  height: 20vh;
+  
 }
 
 ._DT {
@@ -126,7 +126,7 @@
 }
 .locl-data {
   display: flex;
-  height: 10vh;
+  
   background-color: var(--lightGrey);
   color: white;
 }
@@ -157,16 +157,11 @@
   align-items: center;
 }
 .drag_wrapper {
-  height: 12vh;
+  
   display: flex;
   background-color: var(--darkGrey);
 }
-.-Crousl_D {
-  height: 23vh;
-}
-.docsSlider {
-  height: 20vh;
-}
+
 .part_drag0 {
   flex: 1;
   height: 70px;
@@ -190,18 +185,12 @@
   }
 } */
 @media (max-width: 575.98px) {
-  .MM-wrapper {
-    overflow: hidden;
-  }
+  
   .countdTime {
     font-size: 5rem;
     text-align: center;
   }
-  .select_wrappr {
-    flex-direction: column;
-    overflow: auto;
-    display: none;
-  }
+  
   .select-img {
     width: 18rem;
   }
@@ -237,7 +226,7 @@
 }
 @media (min-width: 1200px) {
   .countdTime {
-    font-size: calc(15rem + 2vw) !important;
+    font-size: calc(14rem + 2vw) !important;
     text-align: center;
   }
   .box_div {
@@ -277,7 +266,7 @@
 }
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
   .select_wrappr {
-    flex-direction: column;
+    flex-direction: row;
     overflow: scroll;
   }
   .select-img {
@@ -294,4 +283,19 @@
   }
   
   
+}
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 2560px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+    .select_wrappr {
+      
+      height:auto;
+     
+    }
+    .countdTime {
+      font-size: calc(14rem + 2vw) !important;
+      text-align: center;
+    }
 }
