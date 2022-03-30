@@ -7,6 +7,7 @@ import Instruction from "./components/Pinstruction/Instruction";
 import Slider from "./components/progressRange/Slider";
 import { Routes, Route } from "react-router-dom";
 import Drag from "./components/dnd/Drag";
+import Sample from "./components/Sample";
 function routes() {
  return (
   <div>
@@ -18,6 +19,7 @@ function routes() {
     <Route path="/instruction" element={<Instruction/>} />
     <Route path="/drag" element={<Drag/>} />
     <Route path="/slider" element={<Slider/>} />
+    <Route path="/sample" element={<Sample/>} />
    </Routes>
   </div>
  );

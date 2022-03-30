@@ -2,51 +2,54 @@ import React from "react";
 import { Link } from "react-router-dom";
 import CurrentTime from "../CurrentTime";
 import { GoArrowLeft, GoArrowRight } from "react-icons/go";
+import "./index.css";
 function Encounter() {
- return (
-  <div>
-    
-
-
-
-   <div className="container-fluid lnding_container">
-    <div className="row">
-     <div className="col-lg-2 col-md-2 col-sm-2 col-xs-12 colDiv5" style={{ borderRight: "1px solid #d1ccc0" }}>
-      <CurrentTime />
-     </div>
-     <div
-      className="col-lg-8 col-md-8 col-sm-8 col-xs-12 colDiv6"
-      style={{ backgroundColor: "#B0B5b7", padding: "0px" }}
-     >
-      <div className="encounter__div ">
-       <div className="encounter-row">
-        <Link to="/select" style={{ textDecoration: "none" }}>
-         <div className="d-flex justify-content-center align-items-center cont_div">
-          <GoArrowLeft className="arrow_icon" />
-          <h2 className="countrDiv">Continue Encounter? </h2>
-          <GoArrowLeft className="arrow_icon" />
-         </div>
-        </Link>
-        <Link to="/instruction" style={{ textDecoration: "none" }}>
-         <div className="d-flex justify-content-center align-items-center cont_div2">
-          <GoArrowRight className="arrow_icon" />
-          <h2 className="countrDiv2">End Encounter? </h2>
-          <GoArrowRight className="arrow_icon" />
-         </div>
-        </Link>
-       </div>
+  return (
+    <>
+      <div className="encounter_wrappr ">
+        <div className="small_encntr">
+          <div className="text-white">
+            <CurrentTime />
+          </div>
+        </div>
+        <div className="big_encntr">
+          <div className="encounter_box">
+            <Link
+              to="/select"
+              style={{ textDecoration: "none", color: "white" }}
+            >
+              <div className="_CE">
+                <GoArrowLeft className="arrow_icon" />
+                <h1>Continue Encounter?</h1>
+                <GoArrowLeft className="arrow_icon" />
+              </div>
+            </Link>
+            <Link
+              to="/instruction"
+              style={{ textDecoration: "none", color: "white" }}
+            >
+              <div className="_CE">
+                <GoArrowRight className="arrow_icon" />
+                <h1>End Encounter?</h1>
+                <GoArrowRight className="arrow_icon" />
+              </div>
+            </Link>
+          </div>
+        </div>
+        <div className="small_encntr0">
+          <div>
+            <Link to="/instruction">
+              <img
+                src="./images/logo.png"
+                className="img-fluid Enc-img"
+                alt=""
+              />
+            </Link>
+          </div>
+        </div>
       </div>
-      <div></div>
-     </div>
-     <div className="col-lg-2 col-md-2 col-sm-2 col-xs-12 colDiv5" style={{ borderLeft: "1px solid #d1ccc0" }}>
-      <Link to="/encounter" className="btn btn-light" style={{ background: "none", border: "none" }}>
-       <img src="./images/logo.png" className="img-fluid img_btn w-100" alt="" />
-      </Link>
-     </div>
-    </div>
-   </div>
-  </div>
- );
+    </>
+  );
 }
 
 export default Encounter;

@@ -57,6 +57,11 @@ function SelectTest() {
 
       <div className="select_wrappr ">
         <div className="select_clm">
+
+
+
+
+
           <div className="text-white">
             <CurrentTime />
           </div>
@@ -79,9 +84,17 @@ function SelectTest() {
           >
             <Icon />
           </div>
+
+
+
+          
         </div>
         <div className="select_big_clm">
-          <div
+
+
+
+         <div className="_adjust">
+         <div
             style={{ background: "white", padding: "0px" }}
             className="topCaro"
           >
@@ -99,6 +112,11 @@ function SelectTest() {
           <div className="thrapy">
             <TherapySlider />
           </div>
+         </div>
+
+
+
+
         </div>
 
         <div className="select_clm">

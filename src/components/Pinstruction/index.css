@@ -1,0 +1,95 @@
+:root {
+  --lightedGrey: #e4e4e4;
+  --lightGrey: #b0b5b7;
+  --darkGrey: #585a5c;
+}
+:focus {
+  outline: none;
+  box-shadow: none;
+}
+.main_input2 {
+  border-radius: 3px;
+  outline: none;
+  background-color: white;
+  height: 10vh;
+  font-size: 1rem !important;
+}
+
+.main_input2:focus {
+  border: none;
+  outline: none;
+  box-shadow: none;
+}
+.instruction_wrappr {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+}
+.small_inst {
+  background-color: var(--lightGrey);
+  flex: 1;
+  border-right: 0.5px solid var(--lightedGrey);
+}
+.small_inst0 {
+  background-color: var(--lightGrey);
+  flex: 1;
+  border-left: 0.5px solid var(--lightedGrey);
+  display: flex;
+  justify-content: center;
+}
+
+.big_inst {
+  flex: 4;
+  background-color: var(--lightGrey);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  flex-direction: column;
+}
+
+.inst_box {
+  background-color: var(--lightedGrey);
+  row-gap: 10rem;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.inst_input {
+  padding: 1.2rem 1rem;
+  font-size: 1.5rem !important;
+}
+.row_guter {
+  --bs-gutter-x: 0rem !important;
+}
+@media only screen and (max-width: 480px) {
+  .instruction_wrappr {
+    flex-direction: column;
+  }
+  .big_inst {
+    flex: 2;
+  }
+  .Enc-img2 {
+    width: 60%;
+  }
+  .small_inst0 {
+    text-align: center;
+  }
+  .time_d {
+    font-size: 7rem !important;
+  }
+  .data_d {
+    font-size: 3rem !important;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .time_d {
+    font-size: 7rem !important;
+  }
+  .data_d {
+    font-size: 3rem !important;
+  }
+  .Enc-img2 {
+    width: 50%;
+  }
+}

@@ -10,7 +10,42 @@
 :focus {
   outline: none;
 }
+.paraTexts {
+  font-size: 1rem;
+}
+/* .sideCards{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
 
+.boxtTextS{
+  text-align: center;
+  padding: 10px;
+  background-color: grey;
+  margin-top: 5px;
+  height: 8rem;
+} */
+
+
+._adjust {
+  display: flex;
+  width: auto;
+  height: 100vh;
+  flex-direction: column;
+}
+._adjust {
+  flex: 1;
+}
+.countDown_div {
+  flex: 3;
+}
+.thrapy {
+  flex: 2;
+}
+.main_wrappr2 {
+  font-size: 3rem;
+}
 .select_wrappr {
   width: auto;
   height: 100vh;
@@ -67,7 +102,7 @@
 }
 .init {
   overflow: auto;
-  height: 100px;
+  height:10rem;
 }
 .init::-webkit-scrollbar {
   display: none;
@@ -197,14 +232,12 @@
     font-size: calc(13rem + 9vw) !important;
     text-align: center;
   }
-  
 }
 @media (min-width: 768px) {
   .countdTime {
     font-size: calc(20rem + 2vw) !important;
     text-align: center;
   }
-  
 }
 @media (min-width: 992px) {
   .countdTime {
@@ -215,13 +248,8 @@
     margin: 15px 5px !important;
     padding: 0px 5px 25px 5px !important;
   }
-  .paraTexts {
-    font-size: 1.2rem !important;
-  }
-  .init {
-    overflow: auto;
-    height: 190px;
-  }
+
+  
 }
 @media (min-width: 1200px) {
   .countdTime {
@@ -238,13 +266,8 @@
     margin: 5px 5px !important;
     padding: 0px 5px 0px 5px !important;
   }
-  .paraTexts {
-    font-size: 1rem !important;
-  }
-  .init {
-    overflow: auto;
-    height: 60px;
-  }
+
+  
 }
 @media (min-width: 1800px) {
   .countdTime {
@@ -255,13 +278,8 @@
     margin: 20px 5px !important;
     padding: 30px 5px !important;
   }
-  .paraTexts {
-    font-size: 1.5rem !important;
-  }
-  .init {
-    overflow: auto;
-    height: 300px;
-  }
+
+  
 }
 @media only screen and (min-device-width: 768px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
   .select_wrappr {
@@ -274,9 +292,7 @@
   .select-img {
     width: calc(100% - 65%);
   }
-  .paraTexts {
-    font-size: 2rem !important;
-  }
+
   .boxtText h1 {
     font-size: 4rem;
   }
@@ -284,27 +300,8 @@
     font-size: 2rem;
   }
 }
-@media only screen 
-  and (min-device-width: 768px) 
-  and (max-device-width: 1024px) 
-  and (orientation: landscape) 
-  and (-webkit-min-device-pixel-ratio: 2) {
-    .countdTime {
-      font-size: calc(15rem + 2vw) !important;
-}
-
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+  .countdTime {
+    font-size: calc(15rem + 2vw) !important;
   }
-  
-@media only screen 
-  and (min-device-width: 820px) 
-  and (max-device-width: 1180px) 
-  and (orientation: portrait) 
-  and (-webkit-min-device-pixel-ratio: 2) {
-.MM-wrapper{
-  display: block;
-}
-}
-@media only screen and (min-device-width: 320px) and (max-device-width: 950px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
- 
-  
 }

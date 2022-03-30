@@ -1,14 +1,60 @@
 import React from "react";
 import { Link, useNavigate } from "react-router-dom";
 import CurrentTime from "../CurrentTime";
+import "./index.css";
 function Instruction() {
- const navigate = useNavigate();
- const backPage = () => {
-  navigate("/progress");
- };
- return (
-  <div>
-   <div className="container-fluid lnding_container">
+  const navigate = useNavigate();
+  const backPage = () => {
+    navigate("/progress");
+  };
+  return (
+    <div>
+      <div className="instruction_wrappr ">
+        <div className="small_inst">
+          <div className="text-white">
+            <CurrentTime />
+          </div>
+        </div>
+        <div className="big_inst">
+          <div className="container-fluid text-center p-0">
+            <div className="row row_guter">
+              <div className="col-12 col-xs-12  inst_container">
+                <h2 className="text_inst">Send Patient Instructions:</h2>
+                <div className="d-flex justify-content-evenly my-4">
+                  <input
+                    type="text"
+                    className="form-control w-75 main_input2"
+                    placeholder="Username"
+                  />
+                  <button className="btn btn-lg blue_btn ">Send</button>
+                </div>
+                <div className="d-flex justify-content-evenly my-3">
+                  <input
+                    type="text"
+                    className="form-control w-75 main_input2"
+                    placeholder="MMS:Phone Number"
+                  />
+                  <button className="btn btn-lg blue_btn">Send</button>
+                </div>
+                <button className="btn btn-lg blue_btn">Print</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="small_inst0">
+          <div>
+            <Link to="/instruction">
+              <img
+                src="./images/logo.png"
+                className="img-fluid Enc-img2"
+                alt=""
+              />
+            </Link>
+          </div>
+        </div>
+      </div>
+
+      {/* <div className="container-fluid lnding_container">
     <div className="row">
      <div className="col-lg-2 col-md-2 col-sm-2 col-xs-12 colDiv5" style={{ borderRight: "1px solid #d1ccc0" }}>
       <CurrentTime />
@@ -42,9 +88,9 @@ function Instruction() {
       </Link>
      </div>
     </div>
-   </div>
-  </div>
- );
+   </div> */}
+    </div>
+  );
 }
 
 export default Instruction;

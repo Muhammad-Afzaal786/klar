@@ -15,9 +15,7 @@ input::-webkit-input-placeholder {
 input {
   font-size: 1rem !important;
 }
-.paraTexts {
-  font-size: 1rem;
-}
+
 .countrDiv {
   margin: 0px 15px;
 }
@@ -138,19 +136,7 @@ input {
   margin-top: 3rem;
 }
 
-.main_input2 {
-  border-radius: 3px;
-  outline: none;
-  background-color: white;
-  height: 10vh;
-  font-size: 1rem !important;
-}
 
-.main_input2:focus {
-  border: none;
-  outline: none;
-  box-shadow: none;
-}
 .sc-iCfMLu {
   display: none !important;
 }
@@ -341,8 +327,8 @@ input {
     color: #585a5c;
   }
   .inst_container {
-    width: 100vw;
-    padding: 1rem 1rem;
+    width: 100%;
+    padding: 1rem 0rem;
   }
 }
 
