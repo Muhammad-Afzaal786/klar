@@ -197,12 +197,14 @@
     font-size: calc(13rem + 9vw) !important;
     text-align: center;
   }
+  
 }
 @media (min-width: 768px) {
   .countdTime {
     font-size: calc(20rem + 2vw) !important;
     text-align: center;
   }
+  
 }
 @media (min-width: 992px) {
   .countdTime {
@@ -223,7 +225,7 @@
 }
 @media (min-width: 1200px) {
   .countdTime {
-    font-size: calc(13rem + 2vw) !important;
+    font-size: calc(14rem + 2vw) !important;
     text-align: center;
   }
   .box_div {
@@ -241,7 +243,7 @@
   }
   .init {
     overflow: auto;
-    height: 90px;
+    height: 60px;
   }
 }
 @media (min-width: 1800px) {
@@ -288,19 +290,11 @@
   and (orientation: landscape) 
   and (-webkit-min-device-pixel-ratio: 2) {
     .countdTime {
-      font-size: calc(20rem + 2vw) !important;
+      font-size: calc(15rem + 2vw) !important;
 }
 
   }
-  @media only screen 
-  and (min-device-width: 820px) 
-  and (max-device-width: 1180px) 
-  and (orientation: landscape) 
-  and (-webkit-min-device-pixel-ratio: 2) {
-    .countdTime {
-      font-size: calc(21rem + 5vw) !important;
-}
-}
+  
 @media only screen 
   and (min-device-width: 820px) 
   and (max-device-width: 1180px) 
@@ -310,9 +304,7 @@
   display: block;
 }
 }
-@media only screen and (min-device-width: 320px) and (max-device-width: 2560px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
-  .select_wrappr {
-    height: auto;
-  }
+@media only screen and (min-device-width: 320px) and (max-device-width: 950px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+ 
   
 }
