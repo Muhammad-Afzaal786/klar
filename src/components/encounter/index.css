@@ -1,0 +1,19 @@
+.encounter_wrappr{
+    width: auto;
+    height: 100vh;
+    display: flex;
+    
+}
+.small_encntr{
+    background-color: #b0b5b7;
+    flex: 1;
+}
+.big_encntr{
+    flex: 4;   
+        background-color: #e4e4e4;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      
+}
