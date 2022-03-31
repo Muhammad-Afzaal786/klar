@@ -1,5 +1,5 @@
 :root {
-  --lightedGrey: #e4e4e4;
+  --lightedClr: #e4e4e4;
   --lightGrey: #b0b5b7;
   --darkGrey: #585a5c;
 }
@@ -9,7 +9,7 @@
   display: flex;
 }
 .encounter_box {
-  background-color: var(--lightedGrey);
+  background-color: var(--lightedClr);
 
   width: 100%;
   display: flex;
@@ -22,12 +22,12 @@
 .small_encntr {
   background-color: var(--lightGrey);
   flex: 1;
-  border-right: 0.5px solid var(--lightedGrey);
+  border-right: 0.5px solid var(--lightedClr);
 }
 .small_encntr0 {
   background-color: var(--lightGrey);
   flex: 1;
-  border-left: 0.5px solid var(--lightedGrey);
+  border-left: 0.5px solid var(--lightedClr);
   display: flex;
   justify-content: center;
 }

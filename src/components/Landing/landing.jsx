@@ -4,7 +4,7 @@ import CurrentTime from "../CurrentTime";
 import "./index.css";
 function landing() {
   return (
-    <div>
+    <>
       <div className="main_wrappr">
         <div className="small_clm">
           <div className="text-white">
@@ -28,7 +28,7 @@ function landing() {
         </div>
         <div className="small_clm"></div>
       </div>
-    </div>
+    </>
   );
 }
 

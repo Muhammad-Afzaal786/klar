@@ -1,52 +1,58 @@
 :root {
-    --lightedGrey: #b4b4b4;
-    --lightGrey: #b0b5b7;
-    --darkGrey: #585a5c;
-  }
-.main{
-    display: flex;
-    height: 100vh;
-    width: auto;
-    gap: .5rem;
-    background-color: var(--lightGrey);
-
+  --lightedGrey: #b4b4b4;
+  --lightGrey: #b0b5b7;
+  --darkGrey: #585a5c;
 }
-.small{
+.main {
+  display: flex;
+  height: 100vh;
+  width: auto;
+  gap: 0.5rem;
+  background-color: var(--lightGrey);
+}
+.small {
+  flex: 1;
+  background-color: pink;
+}
+.small12 {
     flex: 1;
     background-color: pink;
-
+  }
+.big {
+  flex: 4;
+  background-color: lightgrey;
 }
-.big{
-    flex: 4;
-    background-color: lightgrey;
+.smallCard {
+  display: flex;
+  height: 100vh;
+  width: auto;
+  flex-direction: column;
+  gap: 1rem;
+  background-color: var(--lightGrey);
 }
-.smallCard{
-    display: flex;
-    height: 100vh;
-    width: auto;
-    flex-direction: column;
-    gap: 1rem;
-    background-color: var(--lightGrey);
+.smallCard .textB {
+  flex: 1;
+  background-color: var(--darkGrey);
 }
-.smallCard .textB{
-    flex: 1;
-    background-color: var(--darkGrey);
+.big-main {
+  display: flex;
+  height: 100vh;
+  width: auto;
+  flex-direction: column;
 }
-.big-main{
-    display: flex;
-    height: 100vh;
-    width: auto;
-    flex-direction: column;
+.big-main .first {
+  flex: 1;
+  background-color: white;
 }
-.big-main .first{
-    flex: 1;
-    background-color: white;
+.big-main .second {
+  flex: 3;
+  background-color: black;
 }
-.big-main .second{
-    flex: 3;
-    background-color: black;
+.big-main .third {
+  flex: 1.5;
+  background-color: white;
 }
-.big-main .third{
-    flex: 1.5;
-    background-color: white;
+.scrolldiv1{
+    height:150px !important;
+    overflow: auto;
 }

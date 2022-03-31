@@ -43,7 +43,9 @@ function Sample() {
       <div className="main">
         <div className="small">
           <div className="smallCard">
-            <div style={{color:"white"}}><CurrentTime/></div>
+            <div style={{ color: "white" }}>
+              <CurrentTime />
+            </div>
             <div className="textB">
               <p>BILLED</p>
               <h1>$302</h1>
@@ -79,19 +81,16 @@ function Sample() {
             </div>
           </div>
         </div>
-        <div className="small">
+        <div className="small12">
           <div className="smallCard">
-          <div style={{color:"white"}}><Link
-            to="/encounter"
-            className="btn btn-light d-flex justify-content-center p-0"
-            
-          >
-            <img
-              src="./images/logo.png"
-              className="img-fluid  "
-              alt=""
-            />
-          </Link></div>
+            <div style={{ color: "white" }}>
+              <Link
+                to="/encounter"
+                className="btn btn-light d-flex justify-content-center p-0"
+              >
+                <img src="./images/logo.png" className="img-fluid w-75 " alt="" />
+              </Link>
+            </div>
             <div className="textB">
               <p>BILLED</p>
               <h1>$302</h1>

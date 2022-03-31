@@ -2,9 +2,13 @@ import React from "react";
 import Carousel from "react-elastic-carousel";
 import Items from "./Items";
 function TopCarousel(props) {
+
+
+
+
   const breakPoints = [
     { width: 1, itemsToShow: 5 },
-   
+
     { width: 550, itemsToShow: 8 },
     { width: 768, itemsToShow: 8 },
     { width: 992, itemsToShow: 12 },
@@ -38,7 +42,7 @@ function TopCarousel(props) {
       >
         <Carousel breakPoints={breakPoints}>
           {props.box.map((val, idx) => {
-            console.log(val);
+            
             return (
               <div key={idx}>
                 <Items

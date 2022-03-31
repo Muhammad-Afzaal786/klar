@@ -30,13 +30,15 @@ function Instruction() {
                 </div>
                 <div className="d-flex justify-content-evenly my-3">
                   <input
-                    type="text"
+                    type="number"
                     className="form-control w-75 main_input2"
                     placeholder="MMS:Phone Number"
                   />
                   <button className="btn btn-lg blue_btn">Send</button>
                 </div>
-                <button className="btn btn-lg blue_btn">Print</button>
+               <Link to="/progress">
+               <button className="btn btn-lg blue_btn">Print</button>
+               </Link>
               </div>
             </div>
           </div>

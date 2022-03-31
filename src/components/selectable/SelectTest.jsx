@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState,useContext } from "react";
 import CurrentTime from "../CurrentTime";
 import "./select.css";
 import Data from "../Data";
@@ -13,15 +13,12 @@ import Data2 from "../Data2";
 
 import Icon from "../../assets/Icons/icon";
 import Document from "../../assets/Icons/Document";
+import { UserContext } from "../context/UserContext";
 
 function SelectTest() {
-  const [cData, setCdata] = useState(Data);
-  const [list, setList] = useState([]);
-  const [box, setBox] = useState(Data2);
-
-  const [isColor, setColor] = useState(false);
-  console.log(box);
-
+  const { cData, setCdata, list, setList, box, setBox, isColor, setColor } =
+    useContext(UserContext);
+ 
   useEffect(() => {
     setList(list);
   }, [list]);

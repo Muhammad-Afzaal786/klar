@@ -8,6 +8,7 @@ import Slider from "./components/progressRange/Slider";
 import { Routes, Route } from "react-router-dom";
 import Drag from "./components/dnd/Drag";
 import Sample from "./components/Sample";
+import Selectbox from "./selectBox/Selectbox";
 function routes() {
  return (
   <div>
@@ -20,6 +21,7 @@ function routes() {
     <Route path="/drag" element={<Drag/>} />
     <Route path="/slider" element={<Slider/>} />
     <Route path="/sample" element={<Sample/>} />
+    <Route path="/box" element={<Selectbox/>} />
    </Routes>
   </div>
  );

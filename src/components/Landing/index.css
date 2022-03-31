@@ -2,10 +2,9 @@
   width: auto;
   height: 100vh;
   display: flex;
-  overflow:hidden;
+  overflow: hidden;
 }
 .small_clm {
-  
   background-color: #b0b5b7;
   flex: 1;
 }
@@ -30,7 +29,6 @@
   font-size: 1.5rem !important;
   font-weight: 400;
 }
-
 
 .klar-img {
   width: 30%;
@@ -106,12 +104,8 @@
     flex-direction: column;
   }
 }
-@media only screen 
-  and (min-device-width: 768px) 
-  and (max-device-width: 991.98px) 
-  and (orientation: landscape) 
-  and (-webkit-min-device-pixel-ratio: 2) {
-    .main_wrappr {
-      flex-direction:row;
-    }
+@media only screen and (min-device-width: 768px) and (max-device-width: 991.98px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+  .main_wrappr {
+    flex-direction: row;
+  }
 }

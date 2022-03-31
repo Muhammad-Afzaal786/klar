@@ -5,7 +5,7 @@
 }
 @media (max-width: 575.98px) {
   html {
-    font-size: min(1rem, 8px);
+    font-size: 8px;
   }
 }
 @media (min-width: 576px) and (max-width: 767.98px) {

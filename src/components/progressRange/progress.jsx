@@ -32,7 +32,7 @@ function Progress() {
             </div>
             <div className="img-box">
               <Link
-                to="/select"
+                to="/box"
                 className="btn btn-light"
                 style={{ background: "none", border: "none" }}
               >
