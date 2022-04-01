@@ -37,7 +37,7 @@ function Instruction() {
                   <button className="btn btn-lg blue_btn">Send</button>
                 </div>
                <Link to="/progress">
-               <button className="btn btn-lg blue_btn">Print</button>
+               <button className="btn btn-lg blue_btn px-4">Print</button>
                </Link>
               </div>
             </div>
