@@ -6,19 +6,44 @@ import TopCarousel from "../components/selectable/TopCarousel";
 import { Link } from "react-router-dom";
 import { UserContext } from "../components/context/UserContext";
 
-
-
-
-
 function Selectbox() {
-  const { cData, setCdata, list, setList, box, setBox, isColor, setColor,show,
-    setShow } =
-    useContext(UserContext);
-console.log(list,"List")
- 
+  const {
+    cData,
+    setCdata,
+    list,
+    setList,
+    box,
+    setBox,
+    isColor,
+    setColor,
+    show,
+    setShow,
+  } = useContext(UserContext);
+
+
+  const remove = (id)=>{
+   console.log(id)
+   const removeData = list.filter((elem , ind)=>{
+          return ind !== id;
+   }) 
+   setList(removeData())
+  }
+
+  useEffect(() => {
+    localStorage.getItem("setData");
+  }, []);
+
+  console.log(list, "List");
+  let showData = (items) => {
+    if (items === show) {
+      setShow(list.length >= [2]);
+    }
+  };
+
   const addItems = (item) => {
+    localStorage.setItem("setData", JSON.stringify(list));
     setList([...list, item]);
-    setShow(true)
+    setShow(showData);
     setCdata(cData);
     setColor(true);
     setColor("#002628");
@@ -32,6 +57,7 @@ console.log(list,"List")
           break;
         }
       }
+    } else {
     }
   };
   return (
@@ -50,37 +76,35 @@ console.log(list,"List")
                 addItems={addItems}
                 box={box}
                 isColor={isColor}
+                remove={remove}
               />
             </div>
             <div className="_SB">
-              {/* <h2>Drag a tile on</h2>
-               <h2>to your</h2>
-               <h2>timeline</h2> */}
+              {show ? (
+                <div className="img-title">
+                  <Link
+                    to="/select"
+                    className="btn btn-light"
+                    style={{ background: "none", border: "none" }}
+                  >
+                    <img
+                      src="./images/logo.png"
+                      className="img-fluid box-img"
+                      alt=""
+                    />
+                  </Link>
 
-              {/* <ImArrowUp className="top_arrow"/> */}
-
-             {show  ?(<div className="img-title">
-                <Link
-                  to="/select"
-                  className="btn btn-light"
-                  style={{ background: "none", border: "none" }}
-                >
-                  <img
-                    src="./images/logo.png"
-                    className="img-fluid box-img"
-                    alt=""
-                  />
-                </Link>
-
-                <ImArrowUp className="top_arrow" />
-                <h1>Touch to start</h1>
-              </div>):
-              <div className="time_line">
-                  <ImArrowUp className="top_arrow1"/>
-                <h3>Drag to tile</h3>
-                <h3>to your</h3>
-                <h3>timeline</h3>
-                </div> }
+                  <ImArrowUp className="top_arrow" />
+                  <h1>Touch to start</h1>
+                </div>
+              ) : (
+                <div className="time_line">
+                  <ImArrowUp className="top_arrow1" />
+                  <h3>Drag to tile</h3>
+                  <h3>to your</h3>
+                  <h3>timeline</h3>
+                </div>
+              )}
             </div>
             <div className="_TB"></div>
           </div>

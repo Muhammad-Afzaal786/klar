@@ -7,17 +7,16 @@
   width: auto;
   height: 100vh;
   display: flex;
- 
 }
 .small_box {
   background-color: var(--lightGrey);
   flex: 1;
-  border-right: .2px solid var(--lightedClr);
+  border-right: 0.2px solid var(--lightedClr);
 }
 .small_box1 {
   background-color: var(--lightGrey);
   flex: 1;
-  border-left: .2px solid var(--lightedClr);
+  border-left: 0.2px solid var(--lightedClr);
 }
 .big_box {
   flex: 4;
@@ -25,7 +24,7 @@
 }
 .main_box {
   width: auto;
-  height: 100vh;
+  height: 100%;
   display: flex;
   flex-direction: column;
 }
@@ -38,25 +37,19 @@
   flex: 5;
   background-color: var(--lightedClr);
   color: var(--darkGrey);
-  
 }
-.img-title{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+.img-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 .top_arrow1 {
- 
   font-size: 2.4rem;
   margin-left: 2rem;
-
 }
 .top_arrow {
- 
   font-size: 2.4rem;
-  
-
 }
 .drag-tile {
   flex: 1;
@@ -72,10 +65,10 @@
   flex: 2;
   background-color: var(--lightGrey);
 }
-.box-img{
-    width: 15rem;
+.box-img {
+  width: 15rem;
 }
-.time_line{
+.time_line {
   padding: 10px;
   font-size: 2rem !important;
   position: relative;
@@ -90,10 +83,12 @@
     flex: 1;
   }
   ._FB {
-    flex: 1;
+    flex: 0;
   }
   ._SB {
-    flex: 1;
+    flex: 5;
   }
-  
+  ._TB {
+    display: none;
+  }
 }

@@ -10,6 +10,27 @@
 :focus {
   outline: none;
 }
+.allEmptyBox{
+  display: flex;
+  flex: evenly;
+
+  justify-content: center;
+  align-items: center;
+  aspect-ratio: 1/0.7;
+  width: 6rem;
+  border: 2px solid #002628;
+  color: #fff;
+  gap: 5px;
+  font-size: 12px;
+  border-radius: 7px;
+  object-fit: cover;
+}
+.MM-wrapper{
+  display: flex;
+  height: 100vh;
+  width: auto;
+  flex-direction: column;
+}
 .paraTexts {
   font-size: 1rem;
 }
@@ -116,12 +137,21 @@
 /* Mobile screen */
 
 .mobile_wrapper {
+  flex: 1;
   display: flex;
   align-items: center;
   background-color: var(--darkGrey);
   color: white;
 }
-
+.detailCards{
+  flex: 1;
+}
+.-Crousl_D{
+  flex: 1;
+}
+.drag_wrapper{
+  flex: 1;
+}
 ._DT {
   flex: 1;
   border-right: 1px solid white;
@@ -184,6 +214,7 @@
   align-items: center;
 }
 .drag_wrapper {
+  flex: 1;
   display: flex;
   background-color: var(--darkGrey);
 }
@@ -211,9 +242,7 @@
   }
 } */
 @media (max-width: 575.98px) {
-  .MM-wrapper {
-    overflow: hidden;
-  }
+  
   .countdTime {
     font-size: 5rem;
     text-align: center;
@@ -226,11 +255,17 @@
   .select-img {
     width: 18rem;
   }
+  .scrolldiv {
+    height: auto !important;
+  }
 }
 @media (min-width: 576px) {
   .countdTime {
     font-size: calc(13rem + 9vw) !important;
     text-align: center;
+  }
+  .scrolldiv {
+    height: 10rem;
   }
 }
 @media (min-width: 768px) {

@@ -24,7 +24,12 @@ function MobileScree(props) {
           </div>
         </div>
 
-        <div className="locl-data my-1">
+
+
+
+
+       <div className="detailCards">
+       <div className="locl-data my-1">
           <div className="_LD1">
             <p>BILLED</p>
             <h1>$302</h1>
@@ -52,6 +57,10 @@ function MobileScree(props) {
             <h1>76%</h1>
           </div>
         </div>
+       </div>
+
+
+
 
         <div className="-Crousl_D">
           <TopCarousel
@@ -62,6 +71,10 @@ function MobileScree(props) {
           />
         </div>
 
+
+
+
+
         <div className="drag_wrapper my-1">
           <div className="part_drag0">
             <Icon />
@@ -70,6 +83,8 @@ function MobileScree(props) {
             <Document className="text-white" />
           </div>
         </div>
+
+
         <div className="docsSlider">
           <TherapySlider />
         </div>

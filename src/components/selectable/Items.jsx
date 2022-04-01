@@ -11,7 +11,8 @@ export default styled.div`
   border: 2px solid #002628;
   color: #fff;
   gap: 5px;
-  font-size: 12px;
+  font-size: 0.9rem;
   border-radius: 7px;
   object-fit: cover;
+  cursor:pointer;
 `;

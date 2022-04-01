@@ -76,8 +76,8 @@ function Slider() {
         )}
       />
       <div className="d-flex justify-content-between" style={{ color: "grey" }}>
-        <span>20min</span>
-        <span>75min</span>
+        <span className="min_range">20min</span>
+        <span className="min_range">75min</span>
       </div>
     </div>
   );

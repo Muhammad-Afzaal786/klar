@@ -1,11 +1,8 @@
+import { Remove } from "@mui/icons-material";
 import React from "react";
 import Carousel from "react-elastic-carousel";
 import Items from "./Items";
 function TopCarousel(props) {
-
-
-
-
   const breakPoints = [
     { width: 1, itemsToShow: 5 },
 
@@ -14,6 +11,10 @@ function TopCarousel(props) {
     { width: 992, itemsToShow: 12 },
     { width: 1440, itemsToShow: 10 },
   ];
+
+
+
+  
   return (
     <>
       <div className="smallSlider">
@@ -42,16 +43,16 @@ function TopCarousel(props) {
       >
         <Carousel breakPoints={breakPoints}>
           {props.box.map((val, idx) => {
-            
             return (
-              <div key={idx}>
+              <div key={idx} id={idx}>
                 <Items
                   style={{
                     color: "white",
                     backgroundColor: val.isFill && props.isColor,
                   }}
+                  
                 >
-                  {val.isFill && val.name}
+                  <span onClick={()=>props.remove(props.id)}>{val.isFill && val.name}</span>
                 </Items>
               </div>
             );
