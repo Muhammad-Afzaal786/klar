@@ -25,7 +25,7 @@ const Data = [
  {
   id: 2,
   img: img2,
-  name: "Elic-stim",
+  name: "Elic-stim ",
   title: "CLINICAL NOTES",
   isFill: true,
   para:
