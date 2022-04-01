@@ -1,4 +1,4 @@
-import React, { useEffect, useState, useContext } from "react";
+import React, { useEffect, useContext } from "react";
 import CurrentTime from "../components/CurrentTime";
 import "./index.css";
 import { ImArrowUp } from "react-icons/im";

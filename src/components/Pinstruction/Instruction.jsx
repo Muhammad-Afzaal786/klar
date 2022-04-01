@@ -1,12 +1,10 @@
 import React from "react";
-import { Link, useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 import CurrentTime from "../CurrentTime";
 import "./index.css";
 function Instruction() {
-  const navigate = useNavigate();
-  const backPage = () => {
-    navigate("/progress");
-  };
+  
+ 
   return (
     <div>
       <div className="instruction_wrappr ">

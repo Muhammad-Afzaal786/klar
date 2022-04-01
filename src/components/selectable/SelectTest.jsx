@@ -1,16 +1,11 @@
-import React, { useEffect, useState,useContext } from "react";
+import React, {useContext } from "react";
 import CurrentTime from "../CurrentTime";
 import "./select.css";
-import Data from "../Data";
-//import Item from "./Item";
 import MobileScree from "./MobileScree";
-
 import TherapySlider from "./TherapySlider";
 import CountDown from "./countDown";
 import TopCarousel from "./TopCarousel";
 import { Link } from "react-router-dom";
-import Data2 from "../Data2";
-
 import Icon from "../../assets/Icons/icon";
 import Document from "../../assets/Icons/Document";
 import { UserContext } from "../context/UserContext";
@@ -19,9 +14,7 @@ function SelectTest() {
   const { cData, setCdata, list, setList, box, setBox, isColor, setColor } =
     useContext(UserContext);
  
-  useEffect(() => {
-    setList(list);
-  }, [list]);
+  
 
   const addItems = (item) => {
     setList([...list, item]);

@@ -1,4 +1,4 @@
-import { Remove } from "@mui/icons-material";
+
 import React from "react";
 import Carousel from "react-elastic-carousel";
 import Items from "./Items";
