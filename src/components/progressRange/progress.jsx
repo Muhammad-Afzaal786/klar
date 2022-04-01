@@ -21,10 +21,11 @@ function Progress() {
             </h2>
             <div className="select_focus">
               <select
-                class="form-select form-select-lg mb-3 option-div"
+              defaultValue=""
+                className="form-select form-select-lg mb-3 option-div"
                 aria-label="form-select-lg example"
               >
-                <option selected>Now</option>
+                <option value="" >Now</option>
                 <option value="1">7am</option>
                 <option value="2">7:15am</option>
                 <option value="3">7:15am</option>

@@ -17,7 +17,7 @@ function arrow() {
      stroke="currentColor"
      stroke-linecap="round"
      stroke-linejoin="round"
-     stroke-width="2"
+     width="2"
      d="m3 12l7-9v4.99L21 8v8H10v5l-7-9Z"
     />
    </svg>
