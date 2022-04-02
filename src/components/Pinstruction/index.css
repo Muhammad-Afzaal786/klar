@@ -68,13 +68,25 @@
   .Enc-img2 {
     width: 60%;
   }
-  .small_inst0 {
-    text-align: center;
-  }
+  
 }
 @media only screen and (max-width: 576px) {
   .Enc-img2 {
     width: 50%;
+  }
+  .big_inst {
+    flex: 1;
+  }
+  .small_inst{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .small_inst0 {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
 @media only screen and (min-width: 768px) {

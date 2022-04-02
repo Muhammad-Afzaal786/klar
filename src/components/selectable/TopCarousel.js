@@ -1,8 +1,15 @@
-
-import React from "react";
+import React, { useContext } from "react";
 import Carousel from "react-elastic-carousel";
 import Items from "./Items";
+import { UserContext } from "../../components/context/UserContext";
+
 function TopCarousel(props) {
+  const {
+  
+    list,
+    setList
+  } = useContext(UserContext);
+
   const breakPoints = [
     { width: 1, itemsToShow: 5 },
 
@@ -12,9 +19,15 @@ function TopCarousel(props) {
     { width: 1440, itemsToShow: 10 },
   ];
 
+  const remove = (id) => {
+    alert("Any Error in Unselect box Filtering")
+    console.log(id);
+    const removeData = list.filter((elem, ind) => {
+      return ind !== id;
+    });
+    setList(removeData);
+  };
 
-
-  
   return (
     <>
       <div className="smallSlider">
@@ -44,7 +57,7 @@ function TopCarousel(props) {
         <Carousel breakPoints={breakPoints}>
           {props.box.map((val, idx) => {
             return (
-              <div key={idx} id={idx}>
+              <div key={idx}>
                 <Items
                   style={{
                     color: "white",
@@ -52,7 +65,9 @@ function TopCarousel(props) {
                   }}
                   
                 >
-                  <span onClick={()=>props.remove(props.id)}>{val.isFill && val.name}</span>
+                  <span  onClick={() =>remove(val.id)}>
+                    {val.isFill && val.name}
+                  </span>
                 </Items>
               </div>
             );

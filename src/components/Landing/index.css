@@ -67,6 +67,9 @@
 }
 
 @media only screen and (max-width: 576px) {
+  .time_d {
+    font-size: 5rem !important;
+  }
   .small_clm {
     display: flex;
     justify-content: center;

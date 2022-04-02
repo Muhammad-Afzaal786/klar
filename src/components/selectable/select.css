@@ -173,10 +173,10 @@
   flex: 1;
 }
 .time_d {
-  font-size: 4rem !important;
+  font-size: 4rem ;
 }
 .data_d {
-  font-size: 1.8rem !important;
+  font-size: 1.8rem ;
 }
 .bg-Clr {
   background-color: var(--lightGrey);
@@ -241,8 +241,13 @@
     overflow: hidden;
   }
 } */
-@media (max-width: 575.98px) {
-  
+@media (max-width: 576px) {
+  .time_d {
+    font-size: 4rem ;
+  }
+  .data_d {
+    font-size: 2rem !important;
+  }
   .countdTime {
     font-size: 5rem;
     text-align: center;

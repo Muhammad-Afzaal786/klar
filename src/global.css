@@ -265,9 +265,7 @@ input {
     height: 60vh;
   }
 
-  .data_d {
-    font-size: 20px;
-  }
+  
 
   .it_start h1 {
     font-size: 2rem;
@@ -369,9 +367,7 @@ input {
 }
 /* LG TAB */
 @media (min-width: 992px) {
-  .data_d {
-    font-size: 20px;
-  }
+  
   .colDiv4 {
     height: 100vh;
   }

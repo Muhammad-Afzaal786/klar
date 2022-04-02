@@ -76,6 +76,11 @@
 }
 
 @media (max-width: 576px) {
+  .small_box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   .box_wrappr {
     flex-direction: column;
   }

@@ -20,14 +20,7 @@ function Selectbox() {
     setShow,
   } = useContext(UserContext);
 
-
-  const remove = (id)=>{
-   console.log(id)
-   const removeData = list.filter((elem , ind)=>{
-          return ind !== id;
-   }) 
-   setList(removeData())
-  }
+ 
 
   useEffect(() => {
     localStorage.getItem("setData");
@@ -76,7 +69,7 @@ function Selectbox() {
                 addItems={addItems}
                 box={box}
                 isColor={isColor}
-                remove={remove}
+              
               />
             </div>
             <div className="_SB">
