@@ -1,10 +1,10 @@
 import React, { useEffect, useContext } from "react";
-import CurrentTime from "../components/CurrentTime";
+import CurrentTime from "../CurrentTime";
 import "./index.css";
 import { ImArrowUp } from "react-icons/im";
-import TopCarousel from "../components/selectable/TopCarousel";
+import TopCarousel from "../selectable/TopCarousel";
 import { Link } from "react-router-dom";
-import { UserContext } from "../components/context/UserContext";
+import { UserContext } from "../context/UserContext";
 
 function Selectbox() {
   const {
